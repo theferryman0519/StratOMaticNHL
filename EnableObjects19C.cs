@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +17,7 @@ public class EnableObjects19C : MonoBehaviour {
 	public Image BackgroundImage;
 	public Text TitleText;
 	public Text ActionText;
-	public Image ContinueButton;
+	public Image StartPowerplayButton;
 
 	// Scoreboard Objects
 	public Image ScoreboardBackground;
@@ -27,6 +27,19 @@ public class EnableObjects19C : MonoBehaviour {
 	public Text P2Shots;
 	public Text Period;
 	public Text Play;
+
+    // Special Teams
+    public Text PowerplayUnitTitle;
+    public Text PowerplayUnitLW;
+    public Text PowerplayUnitC;
+    public Text PowerplayUnitRW;
+    public Text PowerplayUnitLD;
+    public Text PowerplayUnitRD;
+    public Text PenaltyKillUnitTitle;
+    public Text PenaltyKillUnitLW;
+    public Text PenaltyKillUnitRW;
+    public Text PenaltyKillUnitLD;
+    public Text PenaltyKillUnitRD;
 	
 // --------------- PRIVATE VARIABLES ---------------
 	
@@ -44,6 +57,7 @@ public class EnableObjects19C : MonoBehaviour {
 	void Start() {
 		EnableMainObjects();
 		EnableScoreboardObjects();
+        EnableSpecialTeams();
 	}
 	
 // --------------- AWAKE FUNCTION ---------------
@@ -55,6 +69,9 @@ public class EnableObjects19C : MonoBehaviour {
 	void Update() {
 		UpdatingScoreboard();
 		UpdatingLines();
+        UpdatingSpecialTeamsPP();
+        UpdatingSpecialTeamsPK();
+        UpdatingTitleColors();
 		ActionText.text = Buttons19.PenalizedPlayer + " has been given a 2:00 penalty for " + Buttons19.PenaltyType + ".";
 	}
 	
@@ -65,7 +82,7 @@ public class EnableObjects19C : MonoBehaviour {
 		BackgroundImage.enabled = true;
 		TitleText.enabled = true;
 		ActionText.enabled = true;
-		ContinueButton.enabled = true;
+		StartPowerplayButton.enabled = true;
 	}
 
 	public void EnableScoreboardObjects() {
@@ -78,12 +95,26 @@ public class EnableObjects19C : MonoBehaviour {
 		Play.enabled = true;
 	}
 
+    public void EnableSpecialTeams() {
+        PowerplayUnitTitle.enabled = true;
+        PowerplayUnitLW.enabled = true;
+        PowerplayUnitC.enabled = true;
+        PowerplayUnitRW.enabled = true;
+        PowerplayUnitLD.enabled = true;
+        PowerplayUnitRD.enabled = true;
+        PenaltyKillUnitTitle.enabled = true;
+        PenaltyKillUnitLW.enabled = true;
+        PenaltyKillUnitRW.enabled = true;
+        PenaltyKillUnitLD.enabled = true;
+        PenaltyKillUnitRD.enabled = true;
+    }
+
 // --------------- DISABLING OBEJCTS FUNCTIONS ---------------
 	public void DisableMainObjects() {
 		BackgroundImage.enabled = false;
 		TitleText.enabled = false;
 		ActionText.enabled = false;
-		ContinueButton.enabled = false;
+		StartPowerplayButton.enabled = false;
 	}
 
 	public void DisableScoreboardObjects() {
@@ -95,6 +126,20 @@ public class EnableObjects19C : MonoBehaviour {
 		Period.enabled = false;
 		Play.enabled = false;
 	}
+
+    public void DisableSpecialTeams() {
+        PowerplayUnitTitle.enabled = false;
+        PowerplayUnitLW.enabled = false;
+        PowerplayUnitC.enabled = false;
+        PowerplayUnitRW.enabled = false;
+        PowerplayUnitLD.enabled = false;
+        PowerplayUnitRD.enabled = false;
+        PenaltyKillUnitTitle.enabled = false;
+        PenaltyKillUnitLW.enabled = false;
+        PenaltyKillUnitRW.enabled = false;
+        PenaltyKillUnitLD.enabled = false;
+        PenaltyKillUnitRD.enabled = false;
+    }
 
 // --------------- UPDATING TEXT FUNCTIONS ---------------
 	public void UpdatingScoreboard() {
@@ -154,6 +199,118 @@ public class EnableObjects19C : MonoBehaviour {
 			PlayerDatabase.GameplayLine = "F4D3";
 		}
 	}
+
+    public void UpdatingSpecialTeamsPP() {
+        if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+            PowerplayUnitTitle.text = "Powerplay (" + PlayerDatabase.ComputerChosenTeam + ")";
+            PowerplayUnitLW.text = PlayerDatabase.P2PPLW.Replace(" ", "\n");
+            PowerplayUnitC.text = PlayerDatabase.P2PPC.Replace(" ", "\n");
+            PowerplayUnitRW.text = PlayerDatabase.P2PPRW.Replace(" ", "\n");
+            PowerplayUnitLD.text = PlayerDatabase.P2PPLD.Replace(" ", "\n");
+            PowerplayUnitRD.text = PlayerDatabase.P2PPRD.Replace(" ", "\n");
+        }
+
+        else if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+            PowerplayUnitTitle.text = "Powerplay (" + PlayerDatabase.PlayerChosenTeam + ")";
+            PowerplayUnitLW.text = PlayerDatabase.P1PPLW.Replace(" ", "\n");
+            PowerplayUnitC.text = PlayerDatabase.P1PPC.Replace(" ", "\n");
+            PowerplayUnitRW.text = PlayerDatabase.P1PPRW.Replace(" ", "\n");
+            PowerplayUnitLD.text = PlayerDatabase.P1PPLD.Replace(" ", "\n");
+            PowerplayUnitRD.text = PlayerDatabase.P1PPRD.Replace(" ", "\n");
+        }
+    }
+
+    public void UpdatingSpecialTeamsPK() {
+        if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+            PenaltyKillUnitTitle.text = "Penalty Kill (" + PlayerDatabase.PlayerChosenTeam + ")";
+
+            if ((PlayerDatabase.P1PKLW == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P1PKExW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P1PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P1PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P1PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P1PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRW == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P1PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P1PKExW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P1PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P1PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P1PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKLD == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P1PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P1PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P1PKExD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P1PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P1PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRD == PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P1PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P1PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P1PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P1PKExD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P1PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P1PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P1PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P1PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P1PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P1PKRD.Replace(" ", "\n");
+            }
+        }
+
+        else if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+            PenaltyKillUnitTitle.text = "Penalty Kill (" + PlayerDatabase.ComputerChosenTeam + ")";
+
+            if ((PlayerDatabase.P2PKLW == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P2PKExW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P2PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P2PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P2PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P2PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRW == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P2PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P2PKExW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P2PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P2PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P2PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKLD == PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P2PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P2PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P2PKExD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P2PKRD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P2PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRD == PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P2PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P2PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P2PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P2PKExD.Replace(" ", "\n");
+            }
+
+            else if ((PlayerDatabase.P2PKLW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRW != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKLD != PlayerDatabase.GameplayPenaltyPlayer) && (PlayerDatabase.P2PKRD != PlayerDatabase.GameplayPenaltyPlayer)) {
+                PenaltyKillUnitLW.text = PlayerDatabase.P2PKLW.Replace(" ", "\n");
+                PenaltyKillUnitRW.text = PlayerDatabase.P2PKRW.Replace(" ", "\n");
+                PenaltyKillUnitLD.text = PlayerDatabase.P2PKLD.Replace(" ", "\n");
+                PenaltyKillUnitRD.text = PlayerDatabase.P2PKRD.Replace(" ", "\n");
+            }
+        }
+    }
+
+    public void UpdatingTitleColors() {
+        if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+            PowerplayUnitTitle.color = new Color(0.6627451f, 0.007843138f, 0.003921569f, 1.0f);
+            PenaltyKillUnitTitle.color = new Color(0.0509804f, 0.2666667f, 0.4980392f, 1.0f);
+        }
+
+        else if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+            PowerplayUnitTitle.color = new Color(0.0509804f, 0.2666667f, 0.4980392f, 1.0f);
+            PenaltyKillUnitTitle.color = new Color(0.6627451f, 0.007843138f, 0.003921569f, 1.0f);
+        }
+    }
 	
 // ---------------------------------------- END: OTHER FUNCTIONS ----------------------------------------
 }

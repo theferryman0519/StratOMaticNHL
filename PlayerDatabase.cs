@@ -76,6 +76,32 @@ public class PlayerDatabase : MonoBehaviour {
 	public static string P2RD3;
 	public static string P2G;
 
+    // Player Special Teams
+    public static string P1PKLW;
+    public static string P1PKRW;
+    public static string P1PKLD;
+    public static string P1PKRD;
+    public static string P1PKExW;
+    public static string P1PKExD;
+    public static string P1PPLW;
+    public static string P1PPC;
+    public static string P1PPRW;
+    public static string P1PPLD;
+    public static string P1PPRD;
+
+    // Computer Special Teams
+    public static string P2PKLW;
+    public static string P2PKRW;
+    public static string P2PKLD;
+    public static string P2PKRD;
+    public static string P2PKExW;
+    public static string P2PKExD;
+    public static string P2PPLW;
+    public static string P2PPC;
+    public static string P2PPRW;
+    public static string P2PPLD;
+    public static string P2PPRD;
+
 	// In Game Information
 	public static string GameplayPeriod;
 	public static string GameplayPlay;

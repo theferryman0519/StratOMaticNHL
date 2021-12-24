@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -798,6 +798,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Brogan Rafferty";
 				PlayerDatabase.P1RD3 = "Josh Mahura";
 				PlayerDatabase.P1G = "John Gibson";
+                PlayerDatabase.P1PPLW = "Maxime Comtois";
+                PlayerDatabase.P1PPC = "Ryan Getzlaf";
+                PlayerDatabase.P1PPRW = "Rickard Rakell";
+                PlayerDatabase.P1PPLD = "Jakob Silfverberg";
+                PlayerDatabase.P1PPRD = "Hampus Lindholm";
+                PlayerDatabase.P1PKLW = "Maxime Comtois";
+                PlayerDatabase.P1PKRW = "Derek Grant";
+                PlayerDatabase.P1PKLD = "Kevin Shattenkirk";
+                PlayerDatabase.P1PKRD = "Cam Fowler";
+                PlayerDatabase.P1PKExW = "Troy Terry";
+                PlayerDatabase.P1PKExD = "Hampus Lindholm";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "ARI") {
@@ -820,6 +831,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Anton Stralman";
 				PlayerDatabase.P1RD3 = "Ilya Lyubushkin";
 				PlayerDatabase.P1G = "Carter Hutton";
+                PlayerDatabase.P1PPLW = "Ryan Dzingel";
+                PlayerDatabase.P1PPC = "Nick Schmaltz";
+                PlayerDatabase.P1PPRW = "Phil Kessel";
+                PlayerDatabase.P1PPLD = "Alex Galchenyuk";
+                PlayerDatabase.P1PPRD = "Clayton Keller";
+                PlayerDatabase.P1PKLW = "Travis Boyd";
+                PlayerDatabase.P1PKRW = "Antoine Roussel";
+                PlayerDatabase.P1PKLD = "Jakob Chychrun";
+                PlayerDatabase.P1PKRD = "Anton Stralman";
+                PlayerDatabase.P1PKExW = "Ryan Dzingel";
+                PlayerDatabase.P1PKExD = "Shayne Gostisbehere";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "BOS") {
@@ -842,6 +864,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Matt Grzelcyk";
 				PlayerDatabase.P1RD3 = "Brandon Carlo";
 				PlayerDatabase.P1G = "Tuukka Rask";
+                PlayerDatabase.P1PPLW = "Brad Marchand";
+                PlayerDatabase.P1PPC = "Patrice Bergeron";
+                PlayerDatabase.P1PPRW = "David Pastrnak";
+                PlayerDatabase.P1PPLD = "Craig Smith";
+                PlayerDatabase.P1PPRD = "Charlie McAvoy";
+                PlayerDatabase.P1PKLW = "Brad Marchand";
+                PlayerDatabase.P1PKRW = "Patrice Bergeron";
+                PlayerDatabase.P1PKLD = "Charlie McAvoy";
+                PlayerDatabase.P1PKRD = "Matt Grzelcyk";
+                PlayerDatabase.P1PKExW = "David Pastrnak";
+                PlayerDatabase.P1PKExD = "Brandon Carlo";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "BUF") {
@@ -864,6 +897,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Christian Wolanin";
 				PlayerDatabase.P1RD3 = "Jacob Bryson";
 				PlayerDatabase.P1G = "Craig Anderson";
+                PlayerDatabase.P1PPLW = "Victor Olofsson";
+                PlayerDatabase.P1PPC = "Jack Eichel";
+                PlayerDatabase.P1PPRW = "Kyle Okposo";
+                PlayerDatabase.P1PPLD = "Jeff Skinner";
+                PlayerDatabase.P1PPRD = "Rasmus Dahlin";
+                PlayerDatabase.P1PKLW = "Jack Eichel";
+                PlayerDatabase.P1PKRW = "Vinnie Hinostroza";
+                PlayerDatabase.P1PKLD = "Christian Wolanin";
+                PlayerDatabase.P1PKRD = "Robert Hagg";
+                PlayerDatabase.P1PKExW = "Cody Eakin";
+                PlayerDatabase.P1PKExD = "Rasmus Dahlin";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "CAL") {
@@ -886,6 +930,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Michael Stone";
 				PlayerDatabase.P1RD3 = "Nikita Zadorov";
 				PlayerDatabase.P1G = "Jacob Markstrom";
+                PlayerDatabase.P1PPLW = "Johnny Gaudreau";
+                PlayerDatabase.P1PPC = "Elias Lindholm";
+                PlayerDatabase.P1PPRW = "Andrew Mangiapane";
+                PlayerDatabase.P1PPLD = "Rasmus Andersson";
+                PlayerDatabase.P1PPRD = "Noah Hanifin";
+                PlayerDatabase.P1PKLW = "Elias Lindholm";
+                PlayerDatabase.P1PKRW = "Matthew Tkachuk";
+                PlayerDatabase.P1PKLD = "Christopher Tanev";
+                PlayerDatabase.P1PKRD = "Nikita Zadorov";
+                PlayerDatabase.P1PKExW = "Andrew Mangiapane";
+                PlayerDatabase.P1PKExD = "Noah Hanifin";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "CAR") {
@@ -908,6 +963,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jake Gardiner";
 				PlayerDatabase.P1RD3 = "Ian Cole";
 				PlayerDatabase.P1G = "Frederik Andersen";
+                PlayerDatabase.P1PPLW = "Andrei Svechnikov";
+                PlayerDatabase.P1PPC = "Sebastian Aho";
+                PlayerDatabase.P1PPRW = "Teuvo Teravainen";
+                PlayerDatabase.P1PPLD = "Martin Necas";
+                PlayerDatabase.P1PPRD = "Nino Niederreiter";
+                PlayerDatabase.P1PKLW = "Sebastian Aho";
+                PlayerDatabase.P1PKRW = "Teuvo Teravainen";
+                PlayerDatabase.P1PKLD = "Jaccob Slavin";
+                PlayerDatabase.P1PKRD = "Ian Cole";
+                PlayerDatabase.P1PKExW = "Martin Necas";
+                PlayerDatabase.P1PKExD = "Brett Pesce";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "CHI") {
@@ -930,6 +996,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Nicolas Beaudin";
 				PlayerDatabase.P1RD3 = "Connor Murphy";
 				PlayerDatabase.P1G = "MarcAndre Fleury";
+                PlayerDatabase.P1PPLW = "Alex DeBrincat";
+                PlayerDatabase.P1PPC = "Jonathan Toews";
+                PlayerDatabase.P1PPRW = "Patrick Kane";
+                PlayerDatabase.P1PPLD = "Seth Jones";
+                PlayerDatabase.P1PPRD = "Dylan Strome";
+                PlayerDatabase.P1PKLW = "Tyler Johnson";
+                PlayerDatabase.P1PKRW = "Brett Connolly";
+                PlayerDatabase.P1PKLD = "Connor Murphy";
+                PlayerDatabase.P1PKRD = "Seth Jones";
+                PlayerDatabase.P1PKExW = "Jonathan Toews";
+                PlayerDatabase.P1PKExD = "Erik Gustafsson";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "COL") {
@@ -952,6 +1029,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Devon Toews";
 				PlayerDatabase.P1RD3 = "Jack Johnson";
 				PlayerDatabase.P1G = "Darcy Kuemper";
+                PlayerDatabase.P1PPLW = "Gabriel Landeskog";
+                PlayerDatabase.P1PPC = "Nathan MacKinnon";
+                PlayerDatabase.P1PPRW = "Mikko Rantanen";
+                PlayerDatabase.P1PPLD = "Andre Burakovsky";
+                PlayerDatabase.P1PPRD = "Cale Makar";
+                PlayerDatabase.P1PKLW = "Gabriel Landeskog";
+                PlayerDatabase.P1PKRW = "Nathan MacKinnon";
+                PlayerDatabase.P1PKLD = "Cale Makar";
+                PlayerDatabase.P1PKRD = "Devon Toews";
+                PlayerDatabase.P1PKExW = "Mikko Rantanen";
+                PlayerDatabase.P1PKExD = "Samuel Girard";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "CBJ") {
@@ -974,6 +1062,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jake Bean";
 				PlayerDatabase.P1RD3 = "Gabriel Carlsson";
 				PlayerDatabase.P1G = "Joonas Korpisalo";
+                PlayerDatabase.P1PPLW = "Patrik Laine";
+                PlayerDatabase.P1PPC = "Max Domi";
+                PlayerDatabase.P1PPRW = "Jakub Voracek";
+                PlayerDatabase.P1PPLD = "Jack Roslovic";
+                PlayerDatabase.P1PPRD = "Zach Werenski";
+                PlayerDatabase.P1PKLW = "Eric Robinson";
+                PlayerDatabase.P1PKRW = "Boone Jenner";
+                PlayerDatabase.P1PKLD = "Vladislav Gavrikov";
+                PlayerDatabase.P1PKRD = "Zach Werenski";
+                PlayerDatabase.P1PKExW = "Jakub Voracek";
+                PlayerDatabase.P1PKExD = "Adam Boqvist";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "DAL") {
@@ -996,6 +1095,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Miro Heiskanen";
 				PlayerDatabase.P1RD3 = "Joel Hanley";
 				PlayerDatabase.P1G = "Ben Bishop";
+                PlayerDatabase.P1PPLW = "Jason Robertson";
+                PlayerDatabase.P1PPC = "Roope Hintz";
+                PlayerDatabase.P1PPRW = "Joe Pavelski";
+                PlayerDatabase.P1PPLD = "Jamie Benn";
+                PlayerDatabase.P1PPRD = "Tyler Seguin";
+                PlayerDatabase.P1PKLW = "Jason Robertson";
+                PlayerDatabase.P1PKRW = "Alexander Radulov";
+                PlayerDatabase.P1PKLD = "Esa Lindell";
+                PlayerDatabase.P1PKRD = "Jani Hakanpaa";
+                PlayerDatabase.P1PKExW = "Jamie Benn";
+                PlayerDatabase.P1PKExD = "Joel Hanley";
 			}
 			
 			else if (PlayerDatabase.PlayerChosenTeam == "DET") {
@@ -1018,6 +1128,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jordan Oesterle";
 				PlayerDatabase.P1RD3 = "Marc Staal";
 				PlayerDatabase.P1G = "Thomas Greiss";
+                PlayerDatabase.P1PPLW = "Tyler Bertuzzi";
+                PlayerDatabase.P1PPC = "Dylan Larkin";
+                PlayerDatabase.P1PPRW = "Jakub Vrana";
+                PlayerDatabase.P1PPLD = "Robby Fabbri";
+                PlayerDatabase.P1PPRD = "Filip Zadina";
+                PlayerDatabase.P1PKLW = "Jakub Vrana";
+                PlayerDatabase.P1PKRW = "Tyler Bertuzzi";
+                PlayerDatabase.P1PKLD = "Nick Leddy";
+                PlayerDatabase.P1PKRD = "Danny DeKeyser";
+                PlayerDatabase.P1PKExW = "Vladislav Namestnikov";
+                PlayerDatabase.P1PKExD = "Troy Stecher";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "EDM") {
@@ -1040,6 +1161,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Duncan Keith";
 				PlayerDatabase.P1RD3 = "Cody Ceci";
 				PlayerDatabase.P1G = "Mike Smith";
+                PlayerDatabase.P1PPLW = "Leon Draisaitl";
+                PlayerDatabase.P1PPC = "Connor McDavid";
+                PlayerDatabase.P1PPRW = "Zach Hyman";
+                PlayerDatabase.P1PPLD = "Darnell Nurse";
+                PlayerDatabase.P1PPRD = "Kyle Turris";
+                PlayerDatabase.P1PKLW = "Zach Hyman";
+                PlayerDatabase.P1PKRW = "Kailer Yamamoto";
+                PlayerDatabase.P1PKLD = "Darnell Nurse";
+                PlayerDatabase.P1PKRD = "Tyson Barrie";
+                PlayerDatabase.P1PKExW = "Connor McDavid";
+                PlayerDatabase.P1PKExD = "Duncan Keith";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "FLA") {
@@ -1062,6 +1194,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Markus Nutivaara";
 				PlayerDatabase.P1RD3 = "Radko Gudas";
 				PlayerDatabase.P1G = "Sergei Bobrovsky";
+                PlayerDatabase.P1PPLW = "Jonathan Huberdeau";
+                PlayerDatabase.P1PPC = "Aleksander Barkov";
+                PlayerDatabase.P1PPRW = "Sam Reinhart";
+                PlayerDatabase.P1PPLD = "Aaron Ekblad";
+                PlayerDatabase.P1PPRD = "Anthony Duclair";
+                PlayerDatabase.P1PKLW = "Aleksander Barkov";
+                PlayerDatabase.P1PKRW = "Carter Verhaeghe";
+                PlayerDatabase.P1PKLD = "Aaron Ekblad";
+                PlayerDatabase.P1PKRD = "MacKenzie Weegar";
+                PlayerDatabase.P1PKExW = "Anthony Duclair";
+                PlayerDatabase.P1PKExD = "Radko Gudas";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "LAK") {
@@ -1084,6 +1227,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Sean Walker";
 				PlayerDatabase.P1RD3 = "Matt Roy";
 				PlayerDatabase.P1G = "Jonathan Quick";
+                PlayerDatabase.P1PPLW = "Viktor Arvidsson";
+                PlayerDatabase.P1PPC = "Anze Kopitar";
+                PlayerDatabase.P1PPRW = "Dustin Brown";
+                PlayerDatabase.P1PPLD = "Alex Iafallo";
+                PlayerDatabase.P1PPRD = "Adrian Kempe";
+                PlayerDatabase.P1PKLW = "Viktor Arvidsson";
+                PlayerDatabase.P1PKRW = "Phillip Danault";
+                PlayerDatabase.P1PKLD = "Alexander Edler";
+                PlayerDatabase.P1PKRD = "Matt Roy";
+                PlayerDatabase.P1PKExW = "Trevor Moore";
+                PlayerDatabase.P1PKExD = "Drew Doughty";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "MIN") {
@@ -1106,6 +1260,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jonas Brodin";
 				PlayerDatabase.P1RD3 = "Dakota Mermis";
 				PlayerDatabase.P1G = "Cam Talbot";
+                PlayerDatabase.P1PPLW = "Kirill Kaprizov";
+                PlayerDatabase.P1PPC = "Joel ErikssonEk";
+                PlayerDatabase.P1PPRW = "Mats Zuccarello";
+                PlayerDatabase.P1PPLD = "Jared Spurgeon";
+                PlayerDatabase.P1PPRD = "Matt Dumba";
+                PlayerDatabase.P1PKLW = "Kirill Kaprizov";
+                PlayerDatabase.P1PKRW = "Nico Sturm";
+                PlayerDatabase.P1PKLD = "Jordie Benn";
+                PlayerDatabase.P1PKRD = "Matt Dumba";
+                PlayerDatabase.P1PKExW = "Joel ErikssonEk";
+                PlayerDatabase.P1PKExD = "Alex Goligoski";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "MON") {
@@ -1128,6 +1293,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Ben Chiarot";
 				PlayerDatabase.P1RD3 = "Joel Edmundson";
 				PlayerDatabase.P1G = "Carey Price";
+                PlayerDatabase.P1PPLW = "Mike Hoffman";
+                PlayerDatabase.P1PPC = "Nick Suzuki";
+                PlayerDatabase.P1PPRW = "Brendan Gallagher";
+                PlayerDatabase.P1PPLD = "Shea Weber";
+                PlayerDatabase.P1PPRD = "Christian Dvorak";
+                PlayerDatabase.P1PKLW = "Paul Byron";
+                PlayerDatabase.P1PKRW = "Brendan Gallagher";
+                PlayerDatabase.P1PKLD = "Shea Weber";
+                PlayerDatabase.P1PKRD = "Joel Edmundson";
+                PlayerDatabase.P1PKExW = "Joel Armia";
+                PlayerDatabase.P1PKExD = "Brett Kulak";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "NAS") {
@@ -1150,6 +1326,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Dante Fabbro";
 				PlayerDatabase.P1RD3 = "Mark Borowiecki";
 				PlayerDatabase.P1G = "Juuse Saros";
+                PlayerDatabase.P1PPLW = "Filip Forsberg";
+                PlayerDatabase.P1PPC = "Matt Duchene";
+                PlayerDatabase.P1PPRW = "Mikael Granlund";
+                PlayerDatabase.P1PPLD = "Roman Josi";
+                PlayerDatabase.P1PPRD = "Eeli Tolvanen";
+                PlayerDatabase.P1PKLW = "Yakov Trenin";
+                PlayerDatabase.P1PKRW = "Colton Sissons";
+                PlayerDatabase.P1PKLD = "Roman Josi";
+                PlayerDatabase.P1PKRD = "Mattias Ekholm";
+                PlayerDatabase.P1PKExW = "Filip Forsberg";
+                PlayerDatabase.P1PKExD = "Matt Benning";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "NJD") {
@@ -1172,6 +1359,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Damon Severson";
 				PlayerDatabase.P1RD3 = "Ryan Graves";
 				PlayerDatabase.P1G = "Jonathan Bernier";
+                PlayerDatabase.P1PPLW = "Tomas Tatar";
+                PlayerDatabase.P1PPC = "Nico Hischier";
+                PlayerDatabase.P1PPRW = "Jesper Bratt";
+                PlayerDatabase.P1PPLD = "Pavel Zacha";
+                PlayerDatabase.P1PPRD = "Dougie Hamilton";
+                PlayerDatabase.P1PKLW = "Tomas Tatar";
+                PlayerDatabase.P1PKRW = "Jesper Bratt";
+                PlayerDatabase.P1PKLD = "Dougie Hamilton";
+                PlayerDatabase.P1PKRD = "Ryan Graves";
+                PlayerDatabase.P1PKExW = "Yegor Sharangovich";
+                PlayerDatabase.P1PKExD = "PK Subban";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "NYI") {
@@ -1194,6 +1392,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Adam Pelech";
 				PlayerDatabase.P1RD3 = "Andy Greene";
 				PlayerDatabase.P1G = "Semyon Varlamov";
+                PlayerDatabase.P1PPLW = "Zach Parise";
+                PlayerDatabase.P1PPC = "Mathew Barzal";
+                PlayerDatabase.P1PPRW = "Josh Bailey";
+                PlayerDatabase.P1PPLD = "Ryan Pulock";
+                PlayerDatabase.P1PPRD = "Anthony Beauvillier";
+                PlayerDatabase.P1PKLW = "Anders Lee";
+                PlayerDatabase.P1PKRW = "Casey Cizikas";
+                PlayerDatabase.P1PKLD = "Ryan Pulock";
+                PlayerDatabase.P1PKRD = "Adam Pelech";
+                PlayerDatabase.P1PKExW = "Brock Nelson";
+                PlayerDatabase.P1PKExD = "Zdeno Chara";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "NYR") {
@@ -1216,6 +1425,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jacob Trouba";
 				PlayerDatabase.P1RD3 = "KAndre Miller";
 				PlayerDatabase.P1G = "Igor Shesterkin";
+                PlayerDatabase.P1PPLW = "Artemi Panarin";
+                PlayerDatabase.P1PPC = "Mika Zibanejad";
+                PlayerDatabase.P1PPRW = "Ryan Strome";
+                PlayerDatabase.P1PPLD = "Ryan Lindgren";
+                PlayerDatabase.P1PPRD = "Adam Fox";
+                PlayerDatabase.P1PKLW = "Artemi Panarin";
+                PlayerDatabase.P1PKRW = "Ryan Strome";
+                PlayerDatabase.P1PKLD = "Ryan Lindgren";
+                PlayerDatabase.P1PKRD = "Adam Fox";
+                PlayerDatabase.P1PKExW = "Chris Kreider";
+                PlayerDatabase.P1PKExD = "KAndre Miller";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "OTT") {
@@ -1238,6 +1458,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Nikita Zaitsev";
 				PlayerDatabase.P1RD3 = "Victor Mete";
 				PlayerDatabase.P1G = "Matt Murray";
+                PlayerDatabase.P1PPLW = "Brady Tkachuk";
+                PlayerDatabase.P1PPC = "Josh Norris";
+                PlayerDatabase.P1PPRW = "Drake Batherson";
+                PlayerDatabase.P1PPLD = "Thomas Chabot";
+                PlayerDatabase.P1PPRD = "Victor Mete";
+                PlayerDatabase.P1PKLW = "Zach Sanford";
+                PlayerDatabase.P1PKRW = "Connor Brown";
+                PlayerDatabase.P1PKLD = "Michael DelZotto";
+                PlayerDatabase.P1PKRD = "Victor Mete";
+                PlayerDatabase.P1PKExW = "Austin Watson";
+                PlayerDatabase.P1PKExD = "Nikita Zaitsev";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "PHI") {
@@ -1260,6 +1491,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Ivan Provorov";
 				PlayerDatabase.P1RD3 = "Travis Sanheim";
 				PlayerDatabase.P1G = "Carter Hart";
+                PlayerDatabase.P1PPLW = "Travis Konecny";
+                PlayerDatabase.P1PPC = "Sean Couturier";
+                PlayerDatabase.P1PPRW = "Claude Giroux";
+                PlayerDatabase.P1PPLD = "Keith Yandle";
+                PlayerDatabase.P1PPRD = "Ivan Provorov";
+                PlayerDatabase.P1PKLW = "Sean Couturier";
+                PlayerDatabase.P1PKRW = "Claude Giroux";
+                PlayerDatabase.P1PKLD = "Ryan Ellis";
+                PlayerDatabase.P1PKRD = "Ivan Provorov";
+                PlayerDatabase.P1PKExW = "Joel Farabee";
+                PlayerDatabase.P1PKExD = "Rasmus Ristolainen";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "PIT") {
@@ -1282,6 +1524,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "John Marino";
 				PlayerDatabase.P1RD3 = "Taylor Fedun";
 				PlayerDatabase.P1G = "Tristan Jarry";
+                PlayerDatabase.P1PPLW = "Bryan Rust";
+                PlayerDatabase.P1PPC = "Sidney Crosby";
+                PlayerDatabase.P1PPRW = "Jake Guentzel";
+                PlayerDatabase.P1PPLD = "Jason Zucker";
+                PlayerDatabase.P1PPRD = "Kris Letang";
+                PlayerDatabase.P1PKLW = "Bryan Rust";
+                PlayerDatabase.P1PKRW = "Jake Guentzel";
+                PlayerDatabase.P1PKLD = "Brian Dumoulin";
+                PlayerDatabase.P1PKRD = "Kris Letang";
+                PlayerDatabase.P1PKExW = "Sidney Crosby";
+                PlayerDatabase.P1PKExD = "John Marino";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "STL") {
@@ -1304,6 +1557,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Marco Scandella";
 				PlayerDatabase.P1RD3 = "Robert Bortuzzo";
 				PlayerDatabase.P1G = "Jordan Binnington";
+                PlayerDatabase.P1PPLW = "David Perron";
+                PlayerDatabase.P1PPC = "Ryan OReilly";
+                PlayerDatabase.P1PPRW = "Vladimir Tarasenko";
+                PlayerDatabase.P1PPLD = "Torey Krug";
+                PlayerDatabase.P1PPRD = "Pavel Buchnevich";
+                PlayerDatabase.P1PKLW = "David Perron";
+                PlayerDatabase.P1PKRW = "Ryan OReilly";
+                PlayerDatabase.P1PKLD = "Justin Faulk";
+                PlayerDatabase.P1PKRD = "Colton Parayko";
+                PlayerDatabase.P1PKExW = "Pavel Buchnevich";
+                PlayerDatabase.P1PKExD = "Marco Scandella";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "SJS") {
@@ -1326,6 +1590,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "MarcEdouard Vlasic";
 				PlayerDatabase.P1RD3 = "Jacob Middleton";
 				PlayerDatabase.P1G = "James Reimer";
+                PlayerDatabase.P1PPLW = "Evander Kane";
+                PlayerDatabase.P1PPC = "Tomas Hertl";
+                PlayerDatabase.P1PPRW = "Timo Meier";
+                PlayerDatabase.P1PPLD = "Brent Burns";
+                PlayerDatabase.P1PPRD = "Erik Karlsson";
+                PlayerDatabase.P1PKLW = "Tomas Hertl";
+                PlayerDatabase.P1PKRW = "Nick Bonino";
+                PlayerDatabase.P1PKLD = "Brent Burns";
+                PlayerDatabase.P1PKRD = "Erik Karlsson";
+                PlayerDatabase.P1PKExW = "Logan Couture";
+                PlayerDatabase.P1PKExD = "MarcEdouard Vlasic";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "SEA") {
@@ -1348,6 +1623,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Connor Carrick";
 				PlayerDatabase.P1RD3 = "Adam Larsson";
 				PlayerDatabase.P1G = "Philipp Grubauer";
+                PlayerDatabase.P1PPLW = "Jaden Schwartz";
+                PlayerDatabase.P1PPC = "Yanni Gourde";
+                PlayerDatabase.P1PPRW = "Jordan Eberle";
+                PlayerDatabase.P1PPLD = "Jared McCann";
+                PlayerDatabase.P1PPRD = "Joonas Donskoi";
+                PlayerDatabase.P1PKLW = "Yanni Gourde";
+                PlayerDatabase.P1PKRW = "Calle Jarnkrok";
+                PlayerDatabase.P1PKLD = "Mark Giordano";
+                PlayerDatabase.P1PKRD = "Carson Soucy";
+                PlayerDatabase.P1PKExW = "Jared McCann";
+                PlayerDatabase.P1PKExD = "Vince Dunn";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "TBL") {
@@ -1370,6 +1656,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Erik Cernak";
 				PlayerDatabase.P1RD3 = "Jan Rutta";
 				PlayerDatabase.P1G = "Andrei Vasilevskiy";
+                PlayerDatabase.P1PPLW = "Ondrej Palat";
+                PlayerDatabase.P1PPC = "Brayden Point";
+                PlayerDatabase.P1PPRW = "Nikita Kucherov";
+                PlayerDatabase.P1PPLD = "Victor Hedman";
+                PlayerDatabase.P1PPRD = "Steven Stamkos";
+                PlayerDatabase.P1PKLW = "Ondrej Palat";
+                PlayerDatabase.P1PKRW = "Nikita Kucherov";
+                PlayerDatabase.P1PKLD = "Victor Hedman";
+                PlayerDatabase.P1PKRD = "Erik Cernak";
+                PlayerDatabase.P1PKExW = "Brayden Point";
+                PlayerDatabase.P1PKExD = "Mikhail Sergachev";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "TOR") {
@@ -1392,6 +1689,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Rasmus Sandin";
 				PlayerDatabase.P1RD3 = "Alex Biega";
 				PlayerDatabase.P1G = "Petr Mrazek";
+                PlayerDatabase.P1PPLW = "Alexander Kerfoot";
+                PlayerDatabase.P1PPC = "Auston Matthews";
+                PlayerDatabase.P1PPRW = "Mitchell Marner";
+                PlayerDatabase.P1PPLD = "Morgan Rielly";
+                PlayerDatabase.P1PPRD = "Jake Muzzin";
+                PlayerDatabase.P1PKLW = "Auston Matthews";
+                PlayerDatabase.P1PKRW = "Mitchell Marner";
+                PlayerDatabase.P1PKLD = "Morgan Rielly";
+                PlayerDatabase.P1PKRD = "Jake Muzzin";
+                PlayerDatabase.P1PKExW = "John Tavares";
+                PlayerDatabase.P1PKExD = "TJ Brodie";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "VAN") {
@@ -1414,6 +1722,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Tyler Myers";
 				PlayerDatabase.P1RD3 = "Noah Juulsen";
 				PlayerDatabase.P1G = "Thatcher Demko";
+                PlayerDatabase.P1PPLW = "Conor Garland";
+                PlayerDatabase.P1PPC = "Elias Pettersson";
+                PlayerDatabase.P1PPRW = "Brock Boeser";
+                PlayerDatabase.P1PPLD = "JT Miller";
+                PlayerDatabase.P1PPRD = "Quinn Hughes";
+                PlayerDatabase.P1PKLW = "Jason Dickinson";
+                PlayerDatabase.P1PKRW = "JT Miller";
+                PlayerDatabase.P1PKLD = "Oliver EkmanLarsson";
+                PlayerDatabase.P1PKRD = "Tyler Myers";
+                PlayerDatabase.P1PKExW = "Elias Pettersson";
+                PlayerDatabase.P1PKExD = "Madison Bowey";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "VGK") {
@@ -1436,6 +1755,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Alec Martinez";
 				PlayerDatabase.P1RD3 = "Zach Whitecloud";
 				PlayerDatabase.P1G = "Robin Lehner";
+                PlayerDatabase.P1PPLW = "Max Pacioretty";
+                PlayerDatabase.P1PPC = "William Karlsson";
+                PlayerDatabase.P1PPRW = "Mark Stone";
+                PlayerDatabase.P1PPLD = "Jonathan Marchessault";
+                PlayerDatabase.P1PPRD = "Reilly Smith";
+                PlayerDatabase.P1PKLW = "William Karlsson";
+                PlayerDatabase.P1PKRW = "Mark Stone";
+                PlayerDatabase.P1PKLD = "Alex Pietrangelo";
+                PlayerDatabase.P1PKRD = "Shea Theodore";
+                PlayerDatabase.P1PKExW = "Reilly Smith";
+                PlayerDatabase.P1PKExD = "Nicolas Hague";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "WAS") {
@@ -1458,6 +1788,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Michal Kempny";
 				PlayerDatabase.P1RD3 = "Dennis Cholowski";
 				PlayerDatabase.P1G = "Ilya Samsonov";
+                PlayerDatabase.P1PPLW = "Alexander Ovechkin";
+                PlayerDatabase.P1PPC = "Nicklas Backstrom";
+                PlayerDatabase.P1PPRW = "Tom Wilson";
+                PlayerDatabase.P1PPLD = "Anthony Mantha";
+                PlayerDatabase.P1PPRD = "John Carlson";
+                PlayerDatabase.P1PKLW = "Carl Hagelin";
+                PlayerDatabase.P1PKRW = "Tom Wilson";
+                PlayerDatabase.P1PKLD = "Dmitry Orlov";
+                PlayerDatabase.P1PKRD = "Michal Kempny";
+                PlayerDatabase.P1PKExW = "Nic Dowd";
+                PlayerDatabase.P1PKExD = "John Carlson";
 			}
 
 			else  if (PlayerDatabase.PlayerChosenTeam == "WPG") {
@@ -1480,6 +1821,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Brenden Dillon";
 				PlayerDatabase.P1RD3 = "Dylan DeMelo";
 				PlayerDatabase.P1G = "Connor Hellebuyck";
+                PlayerDatabase.P1PPLW = "Kyle Connor";
+                PlayerDatabase.P1PPC = "Mark Scheifele";
+                PlayerDatabase.P1PPRW = "Blake Wheeler";
+                PlayerDatabase.P1PPLD = "Nate Schmidt";
+                PlayerDatabase.P1PPRD = "Andrew Copp";
+                PlayerDatabase.P1PKLW = "Nikolaj Ehlers";
+                PlayerDatabase.P1PKRW = "Paul Stastny";
+                PlayerDatabase.P1PKLD = "Nate Schmidt";
+                PlayerDatabase.P1PKRD = "Brenden Dillon";
+                PlayerDatabase.P1PKExW = "Andrew Copp";
+                PlayerDatabase.P1PKExD = "Nathan Beaulieu";
 			}
 		}
 
@@ -1504,6 +1856,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Chris Pronger";
 				PlayerDatabase.P1RD3 = "Francois Beauchemin";
 				PlayerDatabase.P1G = "John Gibson";
+                PlayerDatabase.P1PPLW = "Paul Kariya";
+                PlayerDatabase.P1PPC = "Ryan Getzlaf";
+                PlayerDatabase.P1PPRW = "Teemu Selanne";
+                PlayerDatabase.P1PPLD = "Bobby Ryan";
+                PlayerDatabase.P1PPRD = "Petr Sykora";
+                PlayerDatabase.P1PKLW = "Chris Kunitz";
+                PlayerDatabase.P1PKRW = "Teemu Selanne";
+                PlayerDatabase.P1PKLD = "Hampus Lindholm";
+                PlayerDatabase.P1PKRD = "Chris Pronger";
+                PlayerDatabase.P1PKExW = "Paul Kariya";
+                PlayerDatabase.P1PKExD = "Francois Beauchemin";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "ATL") {
@@ -1526,6 +1889,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Greg DeVries";
 				PlayerDatabase.P1RD3 = "Ron Hainsey";
 				PlayerDatabase.P1G = "Kari Lehtonen";
+                PlayerDatabase.P1PPLW = "Ilya Kovalchuk";
+                PlayerDatabase.P1PPC = "Bryan Little";
+                PlayerDatabase.P1PPRW = "Marian Hossa";
+                PlayerDatabase.P1PPLD = "Donald Audette";
+                PlayerDatabase.P1PPRD = "Dany Heatley";
+                PlayerDatabase.P1PKLW = "Marian Hossa";
+                PlayerDatabase.P1PKRW = "Colby Armstrong";
+                PlayerDatabase.P1PKLD = "Dustin Byfuglien";
+                PlayerDatabase.P1PKRD = "Greg DeVries";
+                PlayerDatabase.P1PKExW = "Ilya Kovalchuk";
+                PlayerDatabase.P1PKExD = "Frantisek Kaberle";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "BOS") {
@@ -1548,6 +1922,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Dit Clapper";
 				PlayerDatabase.P1RD3 = "Mike OConnell";
 				PlayerDatabase.P1G = "Tuukka Rask";
+                PlayerDatabase.P1PPLW = "Ken Hodge";
+                PlayerDatabase.P1PPC = "Phil Esposito";
+                PlayerDatabase.P1PPRW = "Cam Neely";
+                PlayerDatabase.P1PPLD = "Raymond Bourque";
+                PlayerDatabase.P1PPRD = "Patrice Bergeron";
+                PlayerDatabase.P1PKLW = "Ken Hodge";
+                PlayerDatabase.P1PKRW = "Phil Esposito";
+                PlayerDatabase.P1PKLD = "Raymond Bourque";
+                PlayerDatabase.P1PKRD = "Bobby Orr";
+                PlayerDatabase.P1PKExW = "Cam Neely";
+                PlayerDatabase.P1PKExD = "Brad Park";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "BUF") {
@@ -1570,6 +1955,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P1RD2 = "Jerry Korab";
 				PlayerDatabase.P1RD3 = "Bill Hajt";
 				PlayerDatabase.P1G = "Dominik Hasek";
+                PlayerDatabase.P1PPLW = "Rick Martin";
+                PlayerDatabase.P1PPC = "Pat LaFontaine";
+                PlayerDatabase.P1PPRW = "Danny Gare";
+                PlayerDatabase.P1PPLD = "Rene Robert";
+                PlayerDatabase.P1PPRD = "Alexander Mogilny";
+                PlayerDatabase.P1PKLW = "Don Luce";
+                PlayerDatabase.P1PKRW = "Danny Gare";
+                PlayerDatabase.P1PKLD = "John VanBoxmeer";
+                PlayerDatabase.P1PKRD = "Bill Hajt";
+                PlayerDatabase.P1PKExW = "Mike Foligno";
+                PlayerDatabase.P1PKExD = "Phil Housley";
 			}
 
 			else if (PlayerDatabase.PlayerChosenTeam == "CAL") {
@@ -1592,6 +1988,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Gary Suter";
                 PlayerDatabase.P1RD3 = "Jamie Macoun";
                 PlayerDatabase.P1G = "Mike Vernon";
+                PlayerDatabase.P1PPLW = "Gary Roberts";
+                PlayerDatabase.P1PPC = "Joe Nieuwendyk";
+                PlayerDatabase.P1PPRW = "Theo Fleury";
+                PlayerDatabase.P1PPLD = "Al MacInnis";
+                PlayerDatabase.P1PPRD = "Jarome Iginla";
+                PlayerDatabase.P1PKLW = "Gary Roberts";
+                PlayerDatabase.P1PKRW = "Joe Mullen";
+                PlayerDatabase.P1PKLD = "Al MacInnis";
+                PlayerDatabase.P1PKRD = "Jamie Macoun";
+                PlayerDatabase.P1PKExW = "Joe Nieuwendyk";
+                PlayerDatabase.P1PKExD = "Gary Suter";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "CAR") {
@@ -1614,6 +2021,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Joni Pitkanen";
                 PlayerDatabase.P1RD3 = "Brett Pesce";
                 PlayerDatabase.P1G = "Kevin Weekes";
+                PlayerDatabase.P1PPLW = "Jeff Skinner";
+                PlayerDatabase.P1PPC = "Eric Staal";
+                PlayerDatabase.P1PPRW = "Andrei Svechnikov";
+                PlayerDatabase.P1PPLD = "Sebastian Aho";
+                PlayerDatabase.P1PPRD = "Dougie Hamilton";
+                PlayerDatabase.P1PKLW = "Sebastian Aho";
+                PlayerDatabase.P1PKRW = "Andrei Svechnikov";
+                PlayerDatabase.P1PKLD = "Dougie Hamilton";
+                PlayerDatabase.P1PKRD = "Brett Pesce";
+                PlayerDatabase.P1PKExW = "Erik Cole";
+                PlayerDatabase.P1PKExD = "Sean Hill";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "CBJ") {
@@ -1636,6 +2054,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Ryan Murray";
                 PlayerDatabase.P1RD3 = "David Savard";
                 PlayerDatabase.P1G = "Sergei Bobrovsky";
+                PlayerDatabase.P1PPLW = "Rick Nash";
+                PlayerDatabase.P1PPC = "Boone Jenner";
+                PlayerDatabase.P1PPRW = "Cam Atkinson";
+                PlayerDatabase.P1PPLD = "Seth Jones";
+                PlayerDatabase.P1PPRD = "Geoff Sanderson";
+                PlayerDatabase.P1PKLW = "Nick Foligno";
+                PlayerDatabase.P1PKRW = "Artemi Panarin";
+                PlayerDatabase.P1PKLD = "Seth Jones";
+                PlayerDatabase.P1PKRD = "Zach Werenski";
+                PlayerDatabase.P1PKExW = "Brandon Dubinsky";
+                PlayerDatabase.P1PKExD = "Ryan Murray";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "CHI") {
@@ -1658,6 +2087,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Duncan Keith";
                 PlayerDatabase.P1RD3 = "Pat Stapleton";
                 PlayerDatabase.P1G = "Tony Esposito";
+                PlayerDatabase.P1PPLW = "Bobby Hull";
+                PlayerDatabase.P1PPC = "Stan Mikita";
+                PlayerDatabase.P1PPRW = "Tony Amonte";
+                PlayerDatabase.P1PPLD = "Patrick Kane";
+                PlayerDatabase.P1PPRD = "Chris Chelios";
+                PlayerDatabase.P1PKLW = "Bobby Hull";
+                PlayerDatabase.P1PKRW = "Stan Mikita";
+                PlayerDatabase.P1PKLD = "Pierre Pilote";
+                PlayerDatabase.P1PKRD = "Pat Stapleton";
+                PlayerDatabase.P1PKExW = "Jonathan Toews";
+                PlayerDatabase.P1PKExD = "Chris Chelios";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "COL") {
@@ -1680,6 +2120,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Erik Johnson";
                 PlayerDatabase.P1RD3 = "Brett Clark";
                 PlayerDatabase.P1G = "Patrick Roy";
+                PlayerDatabase.P1PPLW = "Nathan MacKinnon";
+                PlayerDatabase.P1PPC = "Joe Sakic";
+                PlayerDatabase.P1PPRW = "Claude Lemieux";
+                PlayerDatabase.P1PPLD = "Cale Makar";
+                PlayerDatabase.P1PPRD = "Peter Forsberg";
+                PlayerDatabase.P1PKLW = "Joe Sakic";
+                PlayerDatabase.P1PKRW = "Peter Forsberg";
+                PlayerDatabase.P1PKLD = "Cale Makar";
+                PlayerDatabase.P1PKRD = "Rob Blake";
+                PlayerDatabase.P1PKExW = "Alex Tanguay";
+                PlayerDatabase.P1PKExD = "Erik Johnson";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "DAL") {
@@ -1702,6 +2153,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Derian Hatcher";
                 PlayerDatabase.P1RD3 = "Trevor Daley";
                 PlayerDatabase.P1G = "Marty Turco";
+                PlayerDatabase.P1PPLW = "Jere Lehtinen";
+                PlayerDatabase.P1PPC = "Mike Modano";
+                PlayerDatabase.P1PPRW = "Bill Guerin";
+                PlayerDatabase.P1PPLD = "Jamie Benn";
+                PlayerDatabase.P1PPRD = "Tyler Seguin";
+                PlayerDatabase.P1PKLW = "Jere Lehtinen";
+                PlayerDatabase.P1PKRW = "Mike Modano";
+                PlayerDatabase.P1PKLD = "Esa Lindell";
+                PlayerDatabase.P1PKRD = "Derian Hatcher";
+                PlayerDatabase.P1PKExW = "Brenden Morrow";
+                PlayerDatabase.P1PKExD = "Philippe Boucher";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "DET") {
@@ -1724,6 +2186,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Reed Larson";
                 PlayerDatabase.P1RD3 = "Brian Rafalski";
                 PlayerDatabase.P1G = "Terry Sawchuk";
+                PlayerDatabase.P1PPLW = "Brendan Shanahan";
+                PlayerDatabase.P1PPC = "Steve Yzerman";
+                PlayerDatabase.P1PPRW = "Sergei Fedorov";
+                PlayerDatabase.P1PPLD = "Nicklas Lidstrom";
+                PlayerDatabase.P1PPRD = "Gordie Howe";
+                PlayerDatabase.P1PKLW = "Pavel Datsyuk";
+                PlayerDatabase.P1PKRW = "Sergei Fedorov";
+                PlayerDatabase.P1PKLD = "Nicklas Lidstrom";
+                PlayerDatabase.P1PKRD = "Paul Coffey";
+                PlayerDatabase.P1PKExW = "Gordie Howe";
+                PlayerDatabase.P1PKExD = "Brian Rafalski";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "EDM") {
@@ -1746,6 +2219,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Darnell Nurse";
                 PlayerDatabase.P1RD3 = "Steve Smith";
                 PlayerDatabase.P1G = "Grant Fuhr";
+                PlayerDatabase.P1PPLW = "Connor McDavid";
+                PlayerDatabase.P1PPC = "Wayne Gretzky";
+                PlayerDatabase.P1PPRW = "Jari Kurri";
+                PlayerDatabase.P1PPLD = "Paul Coffey";
+                PlayerDatabase.P1PPRD = "Mark Messier";
+                PlayerDatabase.P1PKLW = "Wayne Gretzky";
+                PlayerDatabase.P1PKRW = "Jari Kurri";
+                PlayerDatabase.P1PKLD = "Paul Coffey";
+                PlayerDatabase.P1PKRD = "Randy Gregg";
+                PlayerDatabase.P1PKExW = "Mark Messier";
+                PlayerDatabase.P1PKExD = "Charlie Huddy";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "FLA") {
@@ -1768,6 +2252,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Jay Bouwmeester";
                 PlayerDatabase.P1RD3 = "Ed Jovanovski";
                 PlayerDatabase.P1G = "Roberto Luongo";
+                PlayerDatabase.P1PPLW = "David Booth";
+                PlayerDatabase.P1PPC = "Aleksander Barkov";
+                PlayerDatabase.P1PPRW = "Pavel Bure";
+                PlayerDatabase.P1PPLD = "Olli Jokinen";
+                PlayerDatabase.P1PPRD = "Aaron Ekblad";
+                PlayerDatabase.P1PKLW = "Aleksander Barkov";
+                PlayerDatabase.P1PKRW = "Pavel Bure";
+                PlayerDatabase.P1PKLD = "Bryan McCabe";
+                PlayerDatabase.P1PKRD = "Aaron Ekblad";
+                PlayerDatabase.P1PKExW = "Ray Whitney";
+                PlayerDatabase.P1PKExD = "Brian Campbell";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "HAR") {
@@ -1790,6 +2285,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Adam Burt";
                 PlayerDatabase.P1RD3 = "Brad Shaw";
                 PlayerDatabase.P1G = "Mike Liut";
+                PlayerDatabase.P1PPLW = "Geoff Sanderson";
+                PlayerDatabase.P1PPC = "Mike Rogers";
+                PlayerDatabase.P1PPRW = "Sylvain Turgeon";
+                PlayerDatabase.P1PPLD = "Ron Francis";
+                PlayerDatabase.P1PPRD = "Kevin Dineen";
+                PlayerDatabase.P1PKLW = "John Anderson";
+                PlayerDatabase.P1PKRW = "Mike Rogers";
+                PlayerDatabase.P1PKLD = "Ulf Samuelsson";
+                PlayerDatabase.P1PKRD = "Mark Howe";
+                PlayerDatabase.P1PKExW = "Paul MacDermid";
+                PlayerDatabase.P1PKExD = "Sylvain Cote";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "LAK") {
@@ -1812,6 +2318,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Larry Murphy";
                 PlayerDatabase.P1RD3 = "Marty McSorley";
                 PlayerDatabase.P1G = "Kelly Hrudey";
+                PlayerDatabase.P1PPLW = "Wayne Gretzky";
+                PlayerDatabase.P1PPC = "Marcel Dionne";
+                PlayerDatabase.P1PPRW = "Zigmund Palffy";
+                PlayerDatabase.P1PPLD = "Dave Taylor";
+                PlayerDatabase.P1PPRD = "Rob Blake";
+                PlayerDatabase.P1PKLW = "Charlie Simmer";
+                PlayerDatabase.P1PKRW = "Zigmund Palffy";
+                PlayerDatabase.P1PKLD = "Drew Doughty";
+                PlayerDatabase.P1PKRD = "Marty McSorley";
+                PlayerDatabase.P1PKExW = "Dave Taylor";
+                PlayerDatabase.P1PKExD = "Steve Duchesne";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "MNS") {
@@ -1834,6 +2351,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Brad Maxwell";
                 PlayerDatabase.P1RD3 = "Mark Tinordi";
                 PlayerDatabase.P1G = "Don Beaupre";
+                PlayerDatabase.P1PPLW = "Bill Goldsworthy";
+                PlayerDatabase.P1PPC = "Mike Modano";
+                PlayerDatabase.P1PPRW = "Brian Bellows";
+                PlayerDatabase.P1PPLD = "Danny Grant";
+                PlayerDatabase.P1PPRD = "Dino Ciccarelli";
+                PlayerDatabase.P1PKLW = "Danny Grant";
+                PlayerDatabase.P1PKRW = "Neal Broten";
+                PlayerDatabase.P1PKLD = "Gordie Roberts";
+                PlayerDatabase.P1PKRD = "Gary Sargent";
+                PlayerDatabase.P1PKExW = "Tom McCarthy";
+                PlayerDatabase.P1PKExD = "Mark Tinordi";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "MNW") {
@@ -1856,6 +2384,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Jared Spurgeon";
                 PlayerDatabase.P1RD3 = "Brent Burns";
                 PlayerDatabase.P1G = "Dwayne Roloson";
+                PlayerDatabase.P1PPLW = "Marian Gaborik";
+                PlayerDatabase.P1PPC = "Mikko Koivu";
+                PlayerDatabase.P1PPRW = "Jason Pominville";
+                PlayerDatabase.P1PPLD = "Matt Dumba";
+                PlayerDatabase.P1PPRD = "Zach Parise";
+                PlayerDatabase.P1PKLW = "Marian Gaborik";
+                PlayerDatabase.P1PKRW = "Mikko Koivu";
+                PlayerDatabase.P1PKLD = "Matt Dumba";
+                PlayerDatabase.P1PKRD = "Jared Spurgeon";
+                PlayerDatabase.P1PKExW = "Eric Staal";
+                PlayerDatabase.P1PKExD = "Ryan Suter";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "MON") {
@@ -1878,6 +2417,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Doug Harvey";
                 PlayerDatabase.P1RD3 = "Jacques Laperriere";
                 PlayerDatabase.P1G = "Jacques Plante";
+                PlayerDatabase.P1PPLW = "Jacques Lemaire";
+                PlayerDatabase.P1PPC = "Jean Beliveau";
+                PlayerDatabase.P1PPRW = "Guy Lafleur";
+                PlayerDatabase.P1PPLD = "Yvan Cournoyer";
+                PlayerDatabase.P1PPRD = "Maurice Richard";
+                PlayerDatabase.P1PKLW = "Jacques Lemaire";
+                PlayerDatabase.P1PKRW = "Guy Lafleur";
+                PlayerDatabase.P1PKLD = "Larry Robinson";
+                PlayerDatabase.P1PKRD = "Guy Lapointe";
+                PlayerDatabase.P1PKExW = "Maurice Richard";
+                PlayerDatabase.P1PKExD = "Jacques Laperriere";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "NAS") {
@@ -1900,6 +2450,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Shea Weber";
                 PlayerDatabase.P1RD3 = "Dan Hamhuis";
                 PlayerDatabase.P1G = "Pekka Rinne";
+                PlayerDatabase.P1PPLW = "Patric Hornqvist";
+                PlayerDatabase.P1PPC = "David Legwand";
+                PlayerDatabase.P1PPRW = "James Neal";
+                PlayerDatabase.P1PPLD = "Roman Josi";
+                PlayerDatabase.P1PPRD = "Filip Forsberg";
+                PlayerDatabase.P1PKLW = "David Legwand";
+                PlayerDatabase.P1PKRW = "James Neal";
+                PlayerDatabase.P1PKLD = "Roman Josi";
+                PlayerDatabase.P1PKRD = "Ryan Ellis";
+                PlayerDatabase.P1PKExW = "Martin Erat";
+                PlayerDatabase.P1PKExD = "Shea Weber";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "NJD") {
@@ -1922,6 +2483,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Brian Rafalski";
                 PlayerDatabase.P1RD3 = "Paul Martin";
                 PlayerDatabase.P1G = "Martin Brodeur";
+                PlayerDatabase.P1PPLW = "Zach Parise";
+                PlayerDatabase.P1PPC = "Bobby Holik";
+                PlayerDatabase.P1PPRW = "Stephane Richer";
+                PlayerDatabase.P1PPLD = "Scott Niedermayer";
+                PlayerDatabase.P1PPRD = "Scott Stevens";
+                PlayerDatabase.P1PKLW = "Bobby Holik";
+                PlayerDatabase.P1PKRW = "Petr Sykora";
+                PlayerDatabase.P1PKLD = "Scott Niedermayer";
+                PlayerDatabase.P1PKRD = "Scott Stevens";
+                PlayerDatabase.P1PKExW = "Randy McKay";
+                PlayerDatabase.P1PKExD = "Brian Rafalski";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "NYI") {
@@ -1944,6 +2516,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Travis Hamonic";
                 PlayerDatabase.P1RD3 = "Nick Leddy";
                 PlayerDatabase.P1G = "Billy Smith";
+                PlayerDatabase.P1PPLW = "Clark Gillies";
+                PlayerDatabase.P1PPC = "Bryan Trottier";
+                PlayerDatabase.P1PPRW = "Mike Bossy";
+                PlayerDatabase.P1PPLD = "Denis Potvin";
+                PlayerDatabase.P1PPRD = "Pat LaFontaine";
+                PlayerDatabase.P1PKLW = "Bryan Trottier";
+                PlayerDatabase.P1PKRW = "Mike Bossy";
+                PlayerDatabase.P1PKLD = "Denis Potvin";
+                PlayerDatabase.P1PKRD = "Stefan Persson";
+                PlayerDatabase.P1PKExW = "Clark Gillies";
+                PlayerDatabase.P1PKExD = "Roman Hamrlik";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "NYR") {
@@ -1966,6 +2549,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Neil Colville";
                 PlayerDatabase.P1RD3 = "Dave Maloney";
                 PlayerDatabase.P1G = "Henrik Lundqvist";
+                PlayerDatabase.P1PPLW = "Adam Graves";
+                PlayerDatabase.P1PPC = "Walt Tkaczuk";
+                PlayerDatabase.P1PPRW = "Bill Cook";
+                PlayerDatabase.P1PPLD = "Brian Leetch";
+                PlayerDatabase.P1PPRD = "Mark Messier";
+                PlayerDatabase.P1PKLW = "Adam Graves";
+                PlayerDatabase.P1PKRW = "Walt Tkaczuk";
+                PlayerDatabase.P1PKLD = "Reijo Ruotsalainen";
+                PlayerDatabase.P1PKRD = "Brad Park";
+                PlayerDatabase.P1PKExW = "Mark Messier";
+                PlayerDatabase.P1PKExD = "Brian Leetch";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "OTT") {
@@ -1988,6 +2582,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Wade Redden";
                 PlayerDatabase.P1RD3 = "Thomas Chabot";
                 PlayerDatabase.P1G = "Craig Anderson";
+                PlayerDatabase.P1PPLW = "Dany Heatley";
+                PlayerDatabase.P1PPC = "Alexei Yashin";
+                PlayerDatabase.P1PPRW = "Daniel Alfredsson";
+                PlayerDatabase.P1PPLD = "Erik Karlsson";
+                PlayerDatabase.P1PPRD = "Martin Havlat";
+                PlayerDatabase.P1PKLW = "Dany Heatley";
+                PlayerDatabase.P1PKRW = "Mark Stone";
+                PlayerDatabase.P1PKLD = "Zdeno Chara";
+                PlayerDatabase.P1PKRD = "Wade Redden";
+                PlayerDatabase.P1PKExW = "Jason Spezza";
+                PlayerDatabase.P1PKExD = "Andrej Meszaros";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "PHI") {
@@ -2010,6 +2615,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Eric Desjardins";
                 PlayerDatabase.P1RD3 = "Brad McCrimmon";
                 PlayerDatabase.P1G = "Bernie Parent";
+                PlayerDatabase.P1PPLW = "Brian Propp";
+                PlayerDatabase.P1PPC = "Eric Lindros";
+                PlayerDatabase.P1PPRW = "John LeClair";
+                PlayerDatabase.P1PPLD = "Bill Barber";
+                PlayerDatabase.P1PPRD = "Reggie Leach";
+                PlayerDatabase.P1PKLW = "Eric Lindros";
+                PlayerDatabase.P1PKRW = "Bobby Clarke";
+                PlayerDatabase.P1PKLD = "Mark Howe";
+                PlayerDatabase.P1PKRD = "Brad McCrimmon";
+                PlayerDatabase.P1PKExW = "Bill Barber";
+                PlayerDatabase.P1PKExD = "Bob Dailey";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "PHO") {
@@ -2032,6 +2648,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Keith Yandle";
                 PlayerDatabase.P1RD3 = "Jakob Chychrun";
                 PlayerDatabase.P1G = "Ilya Bryzgalov";
+                PlayerDatabase.P1PPLW = "Keith Tkachuk";
+                PlayerDatabase.P1PPC = "Daymond Langkow";
+                PlayerDatabase.P1PPRW = "Radim Vrbata";
+                PlayerDatabase.P1PPLD = "Oliver EkmanLarsson";
+                PlayerDatabase.P1PPRD = "Ladislav Nagy";
+                PlayerDatabase.P1PKLW = "Keith Tkachuk";
+                PlayerDatabase.P1PKRW = "Radim Vrbata";
+                PlayerDatabase.P1PKLD = "Teppo Numminen";
+                PlayerDatabase.P1PKRD = "Oleg Tverdovsky";
+                PlayerDatabase.P1PKExW = "Ladislav Nagy";
+                PlayerDatabase.P1PKExD = "Keith Yandle";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "PIT") {
@@ -2054,6 +2681,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Kevin Hatcher";
                 PlayerDatabase.P1RD3 = "Doug Bodger";
                 PlayerDatabase.P1G = "MarcAndre Fleury";
+                PlayerDatabase.P1PPLW = "Jean Pronovost";
+                PlayerDatabase.P1PPC = "Mario Lemieux";
+                PlayerDatabase.P1PPRW = "Jaromir Jagr";
+                PlayerDatabase.P1PPLD = "Larry Murphy";
+                PlayerDatabase.P1PPRD = "Sidney Crosby";
+                PlayerDatabase.P1PKLW = "Pascal Dupuis";
+                PlayerDatabase.P1PKRW = "Jaromir Jagr";
+                PlayerDatabase.P1PKLD = "Larry Murphy";
+                PlayerDatabase.P1PKRD = "Kevin Hatcher";
+                PlayerDatabase.P1PKExW = "Syl Apps";
+                PlayerDatabase.P1PKExD = "Kris Letang";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "QUE") {
@@ -2076,6 +2714,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Normand Rochefort";
                 PlayerDatabase.P1RD3 = "Dave Pichette";
                 PlayerDatabase.P1G = "Dan Bouchard";
+                PlayerDatabase.P1PPLW = "Michel Goulet";
+                PlayerDatabase.P1PPC = "Joe Sakic";
+                PlayerDatabase.P1PPRW = "Real Cloutier";
+                PlayerDatabase.P1PPLD = "Jacques Richard";
+                PlayerDatabase.P1PPRD = "Owen Nolan";
+                PlayerDatabase.P1PKLW = "Wilf Paiement";
+                PlayerDatabase.P1PKRW = "Dale Hunter";
+                PlayerDatabase.P1PKLD = "Mario Marois";
+                PlayerDatabase.P1PKRD = "Normand Rochefort";
+                PlayerDatabase.P1PKExW = "Michel Goulet";
+                PlayerDatabase.P1PKExD = "Randy Moller";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "SJS") {
@@ -2098,6 +2747,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Justin Braun";
                 PlayerDatabase.P1RD3 = "Scott Hannan";
                 PlayerDatabase.P1G = "Evgeni Nabokov";
+                PlayerDatabase.P1PPLW = "Milan Michalek";
+                PlayerDatabase.P1PPC = "Joe Pavelski";
+                PlayerDatabase.P1PPRW = "Jonathan Cheechoo";
+                PlayerDatabase.P1PPLD = "Brent Burns";
+                PlayerDatabase.P1PPRD = "Erik Karlsson";
+                PlayerDatabase.P1PKLW = "Milan Michalek";
+                PlayerDatabase.P1PKRW = "Vincent Damphousse";
+                PlayerDatabase.P1PKLD = "Brent Burns";
+                PlayerDatabase.P1PKRD = "Justin Braun";
+                PlayerDatabase.P1PKExW = "Joe Thornton";
+                PlayerDatabase.P1PKExD = "Scott Hannan";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "STL") {
@@ -2120,6 +2780,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Colton Parayko";
                 PlayerDatabase.P1RD3 = "Alex Pietrangelo";
                 PlayerDatabase.P1G = "Mike Liut";
+                PlayerDatabase.P1PPLW = "Red Berenson";
+                PlayerDatabase.P1PPC = "Pavol Demitra";
+                PlayerDatabase.P1PPRW = "Vladimir Tarasenko";
+                PlayerDatabase.P1PPLD = "Al MacInnis";
+                PlayerDatabase.P1PPRD = "Pierre Turgeon";
+                PlayerDatabase.P1PKLW = "Pavol Demitra";
+                PlayerDatabase.P1PKRW = "Pierre Turgeon";
+                PlayerDatabase.P1PKLD = "Al MacInnis";
+                PlayerDatabase.P1PKRD = "Chris Pronger";
+                PlayerDatabase.P1PKExW = "TJ Oshie";
+                PlayerDatabase.P1PKExD = "Colton Parayko";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "TBL") {
@@ -2142,6 +2813,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Shawn Chambers";
                 PlayerDatabase.P1RD3 = "Dan Boyle";
                 PlayerDatabase.P1G = "Andrei Vasilevskiy";
+                PlayerDatabase.P1PPLW = "Ondrej Palat";
+                PlayerDatabase.P1PPC = "Steven Stamkos";
+                PlayerDatabase.P1PPRW = "Nikita Kucherov";
+                PlayerDatabase.P1PPLD = "Victor Hedman";
+                PlayerDatabase.P1PPRD = "Martin StLouis";
+                PlayerDatabase.P1PKLW = "Ondrej Palat";
+                PlayerDatabase.P1PKRW = "Nikita Kucherov";
+                PlayerDatabase.P1PKLD = "Victor Hedman";
+                PlayerDatabase.P1PKRD = "Ryan McDonagh";
+                PlayerDatabase.P1PKExW = "Fredrik Modin";
+                PlayerDatabase.P1PKExD = "Anton Stralman";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "TOR") {
@@ -2164,6 +2846,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Bryan McCabe";
                 PlayerDatabase.P1RD3 = "Morgan Rielly";
                 PlayerDatabase.P1G = "Johnny Bower";
+                PlayerDatabase.P1PPLW = "Frank Mahovlich";
+                PlayerDatabase.P1PPC = "Mats Sundin";
+                PlayerDatabase.P1PPRW = "Rick Vaive";
+                PlayerDatabase.P1PPLD = "Lanny McDonald";
+                PlayerDatabase.P1PPRD = "Phil Kessel";
+                PlayerDatabase.P1PKLW = "Frank Mahovlich";
+                PlayerDatabase.P1PKRW = "Lanny McDonald";
+                PlayerDatabase.P1PKLD = "Tim Horton";
+                PlayerDatabase.P1PKRD = "Ian Turnbull";
+                PlayerDatabase.P1PKExW = "Mats Sundin";
+                PlayerDatabase.P1PKExD = "Red Kelly";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "VAN") {
@@ -2186,6 +2879,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Rick Lanz";
                 PlayerDatabase.P1RD3 = "Mattias Ohlund";
                 PlayerDatabase.P1G = "Kirk McLean";
+                PlayerDatabase.P1PPLW = "Todd Bertuzzi";
+                PlayerDatabase.P1PPC = "Henrik Sedin";
+                PlayerDatabase.P1PPRW = "Pavel Bure";
+                PlayerDatabase.P1PPLD = "Alexander Edler";
+                PlayerDatabase.P1PPRD = "Daniel Sedin";
+                PlayerDatabase.P1PKLW = "Todd Bertuzzi";
+                PlayerDatabase.P1PKRW = "Pavel Bure";
+                PlayerDatabase.P1PKLD = "Kevin Bieksa";
+                PlayerDatabase.P1PKRD = "Jyrki Lumme";
+                PlayerDatabase.P1PKExW = "Markus Naslund";
+                PlayerDatabase.P1PKExD = "Mattias Ohlund";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "WAS") {
@@ -2208,6 +2912,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Rod Langway";
                 PlayerDatabase.P1RD3 = "Al Iafrate";
                 PlayerDatabase.P1G = "Braden Holtby";
+                PlayerDatabase.P1PPLW = "Alexander Ovechkin";
+                PlayerDatabase.P1PPC = "Nicklas Backstrom";
+                PlayerDatabase.P1PPRW = "Peter Bondra";
+                PlayerDatabase.P1PPLD = "John Carlson";
+                PlayerDatabase.P1PPRD = "Mike Gartner";
+                PlayerDatabase.P1PKLW = "Adam Oates";
+                PlayerDatabase.P1PKRW = "Mike Ridley";
+                PlayerDatabase.P1PKLD = "Scott Stevens";
+                PlayerDatabase.P1PKRD = "Rod Langway";
+                PlayerDatabase.P1PKExW = "Alexander Ovechkin";
+                PlayerDatabase.P1PKExD = "Sergei Gonchar";
             }
 
             else if (PlayerDatabase.PlayerChosenTeam == "WPG") {
@@ -2230,6 +2945,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P1RD2 = "Phil Housley";
                 PlayerDatabase.P1RD3 = "Fredrik Olausson";
                 PlayerDatabase.P1G = "Connor Hellebuyck";
+                PlayerDatabase.P1PPLW = "Patrik Laine";
+                PlayerDatabase.P1PPC = "Dale Hawerchuk";
+                PlayerDatabase.P1PPRW = "Teemu Selanne";
+                PlayerDatabase.P1PPLD = "Dustin Byfuglien";
+                PlayerDatabase.P1PPRD = "Paul MacLean";
+                PlayerDatabase.P1PKLW = "Blake Wheeler";
+                PlayerDatabase.P1PKRW = "Doug Smail";
+                PlayerDatabase.P1PKLD = "Dustin Byfuglien";
+                PlayerDatabase.P1PKRD = "Jacob Trouba";
+                PlayerDatabase.P1PKExW = "Nikolaj Ehlers";
+                PlayerDatabase.P1PKExD = "Phil Housley";
             }
 		}
 	}
@@ -2258,6 +2984,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Brogan Rafferty";
 				PlayerDatabase.P2RD3 = "Josh Mahura";
 				PlayerDatabase.P2G = "John Gibson";
+                PlayerDatabase.P2PPLW = "Maxime Comtois";
+                PlayerDatabase.P2PPC = "Ryan Getzlaf";
+                PlayerDatabase.P2PPRW = "Rickard Rakell";
+                PlayerDatabase.P2PPLD = "Jakob Silfverberg";
+                PlayerDatabase.P2PPRD = "Hampus Lindholm";
+                PlayerDatabase.P2PKLW = "Maxime Comtois";
+                PlayerDatabase.P2PKRW = "Derek Grant";
+                PlayerDatabase.P2PKLD = "Kevin Shattenkirk";
+                PlayerDatabase.P2PKRD = "Cam Fowler";
+                PlayerDatabase.P2PKExW = "Troy Terry";
+                PlayerDatabase.P2PKExD = "Hampus Lindholm";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "ARI") {
@@ -2280,6 +3017,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Anton Stralman";
 				PlayerDatabase.P2RD3 = "Ilya Lyubushkin";
 				PlayerDatabase.P2G = "Carter Hutton";
+                PlayerDatabase.P2PPLW = "Ryan Dzingel";
+                PlayerDatabase.P2PPC = "Nick Schmaltz";
+                PlayerDatabase.P2PPRW = "Phil Kessel";
+                PlayerDatabase.P2PPLD = "Alex Galchenyuk";
+                PlayerDatabase.P2PPRD = "Clayton Keller";
+                PlayerDatabase.P2PKLW = "Travis Boyd";
+                PlayerDatabase.P2PKRW = "Antoine Roussel";
+                PlayerDatabase.P2PKLD = "Jakob Chychrun";
+                PlayerDatabase.P2PKRD = "Anton Stralman";
+                PlayerDatabase.P2PKExW = "Ryan Dzingel";
+                PlayerDatabase.P2PKExD = "Shayne Gostisbehere";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "BOS") {
@@ -2302,6 +3050,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Matt Grzelcyk";
 				PlayerDatabase.P2RD3 = "Brandon Carlo";
 				PlayerDatabase.P2G = "Tuukka Rask";
+                PlayerDatabase.P2PPLW = "Brad Marchand";
+                PlayerDatabase.P2PPC = "Patrice Bergeron";
+                PlayerDatabase.P2PPRW = "David Pastrnak";
+                PlayerDatabase.P2PPLD = "Craig Smith";
+                PlayerDatabase.P2PPRD = "Charlie McAvoy";
+                PlayerDatabase.P2PKLW = "Brad Marchand";
+                PlayerDatabase.P2PKRW = "Patrice Bergeron";
+                PlayerDatabase.P2PKLD = "Charlie McAvoy";
+                PlayerDatabase.P2PKRD = "Matt Grzelcyk";
+                PlayerDatabase.P2PKExW = "David Pastrnak";
+                PlayerDatabase.P2PKExD = "Brandon Carlo";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "BUF") {
@@ -2324,6 +3083,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Christian Wolanin";
 				PlayerDatabase.P2RD3 = "Jacob Bryson";
 				PlayerDatabase.P2G = "Craig Anderson";
+                PlayerDatabase.P2PPLW = "Victor Olofsson";
+                PlayerDatabase.P2PPC = "Jack Eichel";
+                PlayerDatabase.P2PPRW = "Kyle Okposo";
+                PlayerDatabase.P2PPLD = "Jeff Skinner";
+                PlayerDatabase.P2PPRD = "Rasmus Dahlin";
+                PlayerDatabase.P2PKLW = "Jack Eichel";
+                PlayerDatabase.P2PKRW = "Vinnie Hinostroza";
+                PlayerDatabase.P2PKLD = "Christian Wolanin";
+                PlayerDatabase.P2PKRD = "Robert Hagg";
+                PlayerDatabase.P2PKExW = "Cody Eakin";
+                PlayerDatabase.P2PKExD = "Rasmus Dahlin";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "CAL") {
@@ -2346,6 +3116,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Michael Stone";
 				PlayerDatabase.P2RD3 = "Nikita Zadorov";
 				PlayerDatabase.P2G = "Jacob Markstrom";
+                PlayerDatabase.P2PPLW = "Johnny Gaudreau";
+                PlayerDatabase.P2PPC = "Elias Lindholm";
+                PlayerDatabase.P2PPRW = "Andrew Mangiapane";
+                PlayerDatabase.P2PPLD = "Rasmus Andersson";
+                PlayerDatabase.P2PPRD = "Noah Hanifin";
+                PlayerDatabase.P2PKLW = "Elias Lindholm";
+                PlayerDatabase.P2PKRW = "Matthew Tkachuk";
+                PlayerDatabase.P2PKLD = "Christopher Tanev";
+                PlayerDatabase.P2PKRD = "Nikita Zadorov";
+                PlayerDatabase.P2PKExW = "Andrew Mangiapane";
+                PlayerDatabase.P2PKExD = "Noah Hanifin";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "CAR") {
@@ -2368,6 +3149,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jake Gardiner";
 				PlayerDatabase.P2RD3 = "Ian Cole";
 				PlayerDatabase.P2G = "Frederik Andersen";
+                PlayerDatabase.P2PPLW = "Andrei Svechnikov";
+                PlayerDatabase.P2PPC = "Sebastian Aho";
+                PlayerDatabase.P2PPRW = "Teuvo Teravainen";
+                PlayerDatabase.P2PPLD = "Martin Necas";
+                PlayerDatabase.P2PPRD = "Nino Niederreiter";
+                PlayerDatabase.P2PKLW = "Sebastian Aho";
+                PlayerDatabase.P2PKRW = "Teuvo Teravainen";
+                PlayerDatabase.P2PKLD = "Jaccob Slavin";
+                PlayerDatabase.P2PKRD = "Ian Cole";
+                PlayerDatabase.P2PKExW = "Martin Necas";
+                PlayerDatabase.P2PKExD = "Brett Pesce";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "CHI") {
@@ -2390,6 +3182,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Nicolas Beaudin";
 				PlayerDatabase.P2RD3 = "Connor Murphy";
 				PlayerDatabase.P2G = "MarcAndre Fleury";
+                PlayerDatabase.P2PPLW = "Alex DeBrincat";
+                PlayerDatabase.P2PPC = "Jonathan Toews";
+                PlayerDatabase.P2PPRW = "Patrick Kane";
+                PlayerDatabase.P2PPLD = "Seth Jones";
+                PlayerDatabase.P2PPRD = "Dylan Strome";
+                PlayerDatabase.P2PKLW = "Tyler Johnson";
+                PlayerDatabase.P2PKRW = "Brett Connolly";
+                PlayerDatabase.P2PKLD = "Connor Murphy";
+                PlayerDatabase.P2PKRD = "Seth Jones";
+                PlayerDatabase.P2PKExW = "Jonathan Toews";
+                PlayerDatabase.P2PKExD = "Erik Gustafsson";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "COL") {
@@ -2412,6 +3215,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Devon Toews";
 				PlayerDatabase.P2RD3 = "Jack Johnson";
 				PlayerDatabase.P2G = "Darcy Kuemper";
+                PlayerDatabase.P2PPLW = "Gabriel Landeskog";
+                PlayerDatabase.P2PPC = "Nathan MacKinnon";
+                PlayerDatabase.P2PPRW = "Mikko Rantanen";
+                PlayerDatabase.P2PPLD = "Andre Burakovsky";
+                PlayerDatabase.P2PPRD = "Cale Makar";
+                PlayerDatabase.P2PKLW = "Gabriel Landeskog";
+                PlayerDatabase.P2PKRW = "Nathan MacKinnon";
+                PlayerDatabase.P2PKLD = "Cale Makar";
+                PlayerDatabase.P2PKRD = "Devon Toews";
+                PlayerDatabase.P2PKExW = "Mikko Rantanen";
+                PlayerDatabase.P2PKExD = "Samuel Girard";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "CBJ") {
@@ -2434,6 +3248,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jake Bean";
 				PlayerDatabase.P2RD3 = "Gabriel Carlsson";
 				PlayerDatabase.P2G = "Joonas Korpisalo";
+                PlayerDatabase.P2PPLW = "Patrik Laine";
+                PlayerDatabase.P2PPC = "Max Domi";
+                PlayerDatabase.P2PPRW = "Jakub Voracek";
+                PlayerDatabase.P2PPLD = "Jack Roslovic";
+                PlayerDatabase.P2PPRD = "Zach Werenski";
+                PlayerDatabase.P2PKLW = "Eric Robinson";
+                PlayerDatabase.P2PKRW = "Boone Jenner";
+                PlayerDatabase.P2PKLD = "Vladislav Gavrikov";
+                PlayerDatabase.P2PKRD = "Zach Werenski";
+                PlayerDatabase.P2PKExW = "Jakub Voracek";
+                PlayerDatabase.P2PKExD = "Adam Boqvist";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "DAL") {
@@ -2456,6 +3281,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Miro Heiskanen";
 				PlayerDatabase.P2RD3 = "Joel Hanley";
 				PlayerDatabase.P2G = "Ben Bishop";
+                PlayerDatabase.P2PPLW = "Jason Robertson";
+                PlayerDatabase.P2PPC = "Roope Hintz";
+                PlayerDatabase.P2PPRW = "Joe Pavelski";
+                PlayerDatabase.P2PPLD = "Jamie Benn";
+                PlayerDatabase.P2PPRD = "Tyler Seguin";
+                PlayerDatabase.P2PKLW = "Jason Robertson";
+                PlayerDatabase.P2PKRW = "Alexander Radulov";
+                PlayerDatabase.P2PKLD = "Esa Lindell";
+                PlayerDatabase.P2PKRD = "Jani Hakanpaa";
+                PlayerDatabase.P2PKExW = "Jamie Benn";
+                PlayerDatabase.P2PKExD = "Joel Hanley";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "DET") {
@@ -2478,6 +3314,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jordan Oesterle";
 				PlayerDatabase.P2RD3 = "Marc Staal";
 				PlayerDatabase.P2G = "Thomas Greiss";
+                PlayerDatabase.P2PPLW = "Tyler Bertuzzi";
+                PlayerDatabase.P2PPC = "Dylan Larkin";
+                PlayerDatabase.P2PPRW = "Jakub Vrana";
+                PlayerDatabase.P2PPLD = "Robby Fabbri";
+                PlayerDatabase.P2PPRD = "Filip Zadina";
+                PlayerDatabase.P2PKLW = "Jakub Vrana";
+                PlayerDatabase.P2PKRW = "Tyler Bertuzzi";
+                PlayerDatabase.P2PKLD = "Nick Leddy";
+                PlayerDatabase.P2PKRD = "Danny DeKeyser";
+                PlayerDatabase.P2PKExW = "Vladislav Namestnikov";
+                PlayerDatabase.P2PKExD = "Troy Stecher";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "EDM") {
@@ -2500,6 +3347,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Duncan Keith";
 				PlayerDatabase.P2RD3 = "Cody Ceci";
 				PlayerDatabase.P2G = "Mike Smith";
+                PlayerDatabase.P2PPLW = "Leon Draisaitl";
+                PlayerDatabase.P2PPC = "Connor McDavid";
+                PlayerDatabase.P2PPRW = "Zach Hyman";
+                PlayerDatabase.P2PPLD = "Darnell Nurse";
+                PlayerDatabase.P2PPRD = "Kyle Turris";
+                PlayerDatabase.P2PKLW = "Zach Hyman";
+                PlayerDatabase.P2PKRW = "Kailer Yamamoto";
+                PlayerDatabase.P2PKLD = "Darnell Nurse";
+                PlayerDatabase.P2PKRD = "Tyson Barrie";
+                PlayerDatabase.P2PKExW = "Connor McDavid";
+                PlayerDatabase.P2PKExD = "Duncan Keith";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "FLA") {
@@ -2522,6 +3380,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Markus Nutivaara";
 				PlayerDatabase.P2RD3 = "Radko Gudas";
 				PlayerDatabase.P2G = "Sergei Bobrovsky";
+                PlayerDatabase.P2PPLW = "Jonathan Huberdeau";
+                PlayerDatabase.P2PPC = "Aleksander Barkov";
+                PlayerDatabase.P2PPRW = "Sam Reinhart";
+                PlayerDatabase.P2PPLD = "Aaron Ekblad";
+                PlayerDatabase.P2PPRD = "Anthony Duclair";
+                PlayerDatabase.P2PKLW = "Aleksander Barkov";
+                PlayerDatabase.P2PKRW = "Carter Verhaeghe";
+                PlayerDatabase.P2PKLD = "Aaron Ekblad";
+                PlayerDatabase.P2PKRD = "MacKenzie Weegar";
+                PlayerDatabase.P2PKExW = "Anthony Duclair";
+                PlayerDatabase.P2PKExD = "Radko Gudas";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "LAK") {
@@ -2544,6 +3413,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Sean Walker";
 				PlayerDatabase.P2RD3 = "Matt Roy";
 				PlayerDatabase.P2G = "Jonathan Quick";
+                PlayerDatabase.P2PPLW = "Viktor Arvidsson";
+                PlayerDatabase.P2PPC = "Anze Kopitar";
+                PlayerDatabase.P2PPRW = "Dustin Brown";
+                PlayerDatabase.P2PPLD = "Alex Iafallo";
+                PlayerDatabase.P2PPRD = "Adrian Kempe";
+                PlayerDatabase.P2PKLW = "Viktor Arvidsson";
+                PlayerDatabase.P2PKRW = "Phillip Danault";
+                PlayerDatabase.P2PKLD = "Alexander Edler";
+                PlayerDatabase.P2PKRD = "Matt Roy";
+                PlayerDatabase.P2PKExW = "Trevor Moore";
+                PlayerDatabase.P2PKExD = "Drew Doughty";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "MIN") {
@@ -2566,6 +3446,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jonas Brodin";
 				PlayerDatabase.P2RD3 = "Dakota Mermis";
 				PlayerDatabase.P2G = "Cam Talbot";
+                PlayerDatabase.P2PPLW = "Kirill Kaprizov";
+                PlayerDatabase.P2PPC = "Joel ErikssonEk";
+                PlayerDatabase.P2PPRW = "Mats Zuccarello";
+                PlayerDatabase.P2PPLD = "Jared Spurgeon";
+                PlayerDatabase.P2PPRD = "Matt Dumba";
+                PlayerDatabase.P2PKLW = "Kirill Kaprizov";
+                PlayerDatabase.P2PKRW = "Nico Sturm";
+                PlayerDatabase.P2PKLD = "Jordie Benn";
+                PlayerDatabase.P2PKRD = "Matt Dumba";
+                PlayerDatabase.P2PKExW = "Joel ErikssonEk";
+                PlayerDatabase.P2PKExD = "Alex Goligoski";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "MON") {
@@ -2588,6 +3479,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Ben Chiarot";
 				PlayerDatabase.P2RD3 = "Joel Edmundson";
 				PlayerDatabase.P2G = "Carey Price";
+                PlayerDatabase.P2PPLW = "Mike Hoffman";
+                PlayerDatabase.P2PPC = "Nick Suzuki";
+                PlayerDatabase.P2PPRW = "Brendan Gallagher";
+                PlayerDatabase.P2PPLD = "Shea Weber";
+                PlayerDatabase.P2PPRD = "Christian Dvorak";
+                PlayerDatabase.P2PKLW = "Paul Byron";
+                PlayerDatabase.P2PKRW = "Brendan Gallagher";
+                PlayerDatabase.P2PKLD = "Shea Weber";
+                PlayerDatabase.P2PKRD = "Joel Edmundson";
+                PlayerDatabase.P2PKExW = "Joel Armia";
+                PlayerDatabase.P2PKExD = "Brett Kulak";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "NAS") {
@@ -2610,6 +3512,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Dante Fabbro";
 				PlayerDatabase.P2RD3 = "Mark Borowiecki";
 				PlayerDatabase.P2G = "Juuse Saros";
+                PlayerDatabase.P2PPLW = "Filip Forsberg";
+                PlayerDatabase.P2PPC = "Matt Duchene";
+                PlayerDatabase.P2PPRW = "Mikael Granlund";
+                PlayerDatabase.P2PPLD = "Roman Josi";
+                PlayerDatabase.P2PPRD = "Eeli Tolvanen";
+                PlayerDatabase.P2PKLW = "Yakov Trenin";
+                PlayerDatabase.P2PKRW = "Colton Sissons";
+                PlayerDatabase.P2PKLD = "Roman Josi";
+                PlayerDatabase.P2PKRD = "Mattias Ekholm";
+                PlayerDatabase.P2PKExW = "Filip Forsberg";
+                PlayerDatabase.P2PKExD = "Matt Benning";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "NJD") {
@@ -2632,6 +3545,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Damon Severson";
 				PlayerDatabase.P2RD3 = "Ryan Graves";
 				PlayerDatabase.P2G = "Jonathan Bernier";
+                PlayerDatabase.P2PPLW = "Tomas Tatar";
+                PlayerDatabase.P2PPC = "Nico Hischier";
+                PlayerDatabase.P2PPRW = "Jesper Bratt";
+                PlayerDatabase.P2PPLD = "Pavel Zacha";
+                PlayerDatabase.P2PPRD = "Dougie Hamilton";
+                PlayerDatabase.P2PKLW = "Tomas Tatar";
+                PlayerDatabase.P2PKRW = "Jesper Bratt";
+                PlayerDatabase.P2PKLD = "Dougie Hamilton";
+                PlayerDatabase.P2PKRD = "Ryan Graves";
+                PlayerDatabase.P2PKExW = "Yegor Sharangovich";
+                PlayerDatabase.P2PKExD = "PK Subban";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "NYI") {
@@ -2654,6 +3578,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Adam Pelech";
 				PlayerDatabase.P2RD3 = "Andy Greene";
 				PlayerDatabase.P2G = "Semyon Varlamov";
+                PlayerDatabase.P2PPLW = "Zach Parise";
+                PlayerDatabase.P2PPC = "Mathew Barzal";
+                PlayerDatabase.P2PPRW = "Josh Bailey";
+                PlayerDatabase.P2PPLD = "Ryan Pulock";
+                PlayerDatabase.P2PPRD = "Anthony Beauvillier";
+                PlayerDatabase.P2PKLW = "Anders Lee";
+                PlayerDatabase.P2PKRW = "Casey Cizikas";
+                PlayerDatabase.P2PKLD = "Ryan Pulock";
+                PlayerDatabase.P2PKRD = "Adam Pelech";
+                PlayerDatabase.P2PKExW = "Brock Nelson";
+                PlayerDatabase.P2PKExD = "Zdeno Chara";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "NYR") {
@@ -2676,6 +3611,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jacob Trouba";
 				PlayerDatabase.P2RD3 = "KAndre Miller";
 				PlayerDatabase.P2G = "Igor Shesterkin";
+                PlayerDatabase.P2PPLW = "Artemi Panarin";
+                PlayerDatabase.P2PPC = "Mika Zibanejad";
+                PlayerDatabase.P2PPRW = "Ryan Strome";
+                PlayerDatabase.P2PPLD = "Ryan Lindgren";
+                PlayerDatabase.P2PPRD = "Adam Fox";
+                PlayerDatabase.P2PKLW = "Artemi Panarin";
+                PlayerDatabase.P2PKRW = "Ryan Strome";
+                PlayerDatabase.P2PKLD = "Ryan Lindgren";
+                PlayerDatabase.P2PKRD = "Adam Fox";
+                PlayerDatabase.P2PKExW = "Chris Kreider";
+                PlayerDatabase.P2PKExD = "KAndre Miller";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "OTT") {
@@ -2698,6 +3644,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Nikita Zaitsev";
 				PlayerDatabase.P2RD3 = "Victor Mete";
 				PlayerDatabase.P2G = "Matt Murray";
+                PlayerDatabase.P2PPLW = "Brady Tkachuk";
+                PlayerDatabase.P2PPC = "Josh Norris";
+                PlayerDatabase.P2PPRW = "Drake Batherson";
+                PlayerDatabase.P2PPLD = "Thomas Chabot";
+                PlayerDatabase.P2PPRD = "Victor Mete";
+                PlayerDatabase.P2PKLW = "Zach Sanford";
+                PlayerDatabase.P2PKRW = "Connor Brown";
+                PlayerDatabase.P2PKLD = "Michael DelZotto";
+                PlayerDatabase.P2PKRD = "Victor Mete";
+                PlayerDatabase.P2PKExW = "Austin Watson";
+                PlayerDatabase.P2PKExD = "Nikita Zaitsev";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "PHI") {
@@ -2720,6 +3677,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Ivan Provorov";
 				PlayerDatabase.P2RD3 = "Travis Sanheim";
 				PlayerDatabase.P2G = "Carter Hart";
+                PlayerDatabase.P2PPLW = "Travis Konecny";
+                PlayerDatabase.P2PPC = "Sean Couturier";
+                PlayerDatabase.P2PPRW = "Claude Giroux";
+                PlayerDatabase.P2PPLD = "Keith Yandle";
+                PlayerDatabase.P2PPRD = "Ivan Provorov";
+                PlayerDatabase.P2PKLW = "Sean Couturier";
+                PlayerDatabase.P2PKRW = "Claude Giroux";
+                PlayerDatabase.P2PKLD = "Ryan Ellis";
+                PlayerDatabase.P2PKRD = "Ivan Provorov";
+                PlayerDatabase.P2PKExW = "Joel Farabee";
+                PlayerDatabase.P2PKExD = "Rasmus Ristolainen";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "PIT") {
@@ -2742,6 +3710,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "John Marino";
 				PlayerDatabase.P2RD3 = "Taylor Fedun";
 				PlayerDatabase.P2G = "Tristan Jarry";
+                PlayerDatabase.P2PPLW = "Bryan Rust";
+                PlayerDatabase.P2PPC = "Sidney Crosby";
+                PlayerDatabase.P2PPRW = "Jake Guentzel";
+                PlayerDatabase.P2PPLD = "Jason Zucker";
+                PlayerDatabase.P2PPRD = "Kris Letang";
+                PlayerDatabase.P2PKLW = "Bryan Rust";
+                PlayerDatabase.P2PKRW = "Jake Guentzel";
+                PlayerDatabase.P2PKLD = "Brian Dumoulin";
+                PlayerDatabase.P2PKRD = "Kris Letang";
+                PlayerDatabase.P2PKExW = "Sidney Crosby";
+                PlayerDatabase.P2PKExD = "John Marino";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "STL") {
@@ -2764,6 +3743,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Marco Scandella";
 				PlayerDatabase.P2RD3 = "Robert Bortuzzo";
 				PlayerDatabase.P2G = "Jordan Binnington";
+                PlayerDatabase.P2PPLW = "David Perron";
+                PlayerDatabase.P2PPC = "Ryan OReilly";
+                PlayerDatabase.P2PPRW = "Vladimir Tarasenko";
+                PlayerDatabase.P2PPLD = "Torey Krug";
+                PlayerDatabase.P2PPRD = "Pavel Buchnevich";
+                PlayerDatabase.P2PKLW = "David Perron";
+                PlayerDatabase.P2PKRW = "Ryan OReilly";
+                PlayerDatabase.P2PKLD = "Justin Faulk";
+                PlayerDatabase.P2PKRD = "Colton Parayko";
+                PlayerDatabase.P2PKExW = "Pavel Buchnevich";
+                PlayerDatabase.P2PKExD = "Marco Scandella";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "SJS") {
@@ -2786,6 +3776,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "MarcEdouard Vlasic";
 				PlayerDatabase.P2RD3 = "Jacob Middleton";
 				PlayerDatabase.P2G = "James Reimer";
+                PlayerDatabase.P2PPLW = "Evander Kane";
+                PlayerDatabase.P2PPC = "Tomas Hertl";
+                PlayerDatabase.P2PPRW = "Timo Meier";
+                PlayerDatabase.P2PPLD = "Brent Burns";
+                PlayerDatabase.P2PPRD = "Erik Karlsson";
+                PlayerDatabase.P2PKLW = "Tomas Hertl";
+                PlayerDatabase.P2PKRW = "Nick Bonino";
+                PlayerDatabase.P2PKLD = "Brent Burns";
+                PlayerDatabase.P2PKRD = "Erik Karlsson";
+                PlayerDatabase.P2PKExW = "Logan Couture";
+                PlayerDatabase.P2PKExD = "MarcEdouard Vlasic";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "SEA") {
@@ -2808,6 +3809,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Connor Carrick";
 				PlayerDatabase.P2RD3 = "Adam Larsson";
 				PlayerDatabase.P2G = "Philipp Grubauer";
+                PlayerDatabase.P2PPLW = "Jaden Schwartz";
+                PlayerDatabase.P2PPC = "Yanni Gourde";
+                PlayerDatabase.P2PPRW = "Jordan Eberle";
+                PlayerDatabase.P2PPLD = "Jared McCann";
+                PlayerDatabase.P2PPRD = "Joonas Donskoi";
+                PlayerDatabase.P2PKLW = "Yanni Gourde";
+                PlayerDatabase.P2PKRW = "Calle Jarnkrok";
+                PlayerDatabase.P2PKLD = "Mark Giordano";
+                PlayerDatabase.P2PKRD = "Carson Soucy";
+                PlayerDatabase.P2PKExW = "Jared McCann";
+                PlayerDatabase.P2PKExD = "Vince Dunn";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "TBL") {
@@ -2830,6 +3842,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Erik Cernak";
 				PlayerDatabase.P2RD3 = "Jan Rutta";
 				PlayerDatabase.P2G = "Andrei Vasilevskiy";
+                PlayerDatabase.P2PPLW = "Ondrej Palat";
+                PlayerDatabase.P2PPC = "Brayden Point";
+                PlayerDatabase.P2PPRW = "Nikita Kucherov";
+                PlayerDatabase.P2PPLD = "Victor Hedman";
+                PlayerDatabase.P2PPRD = "Steven Stamkos";
+                PlayerDatabase.P2PKLW = "Ondrej Palat";
+                PlayerDatabase.P2PKRW = "Nikita Kucherov";
+                PlayerDatabase.P2PKLD = "Victor Hedman";
+                PlayerDatabase.P2PKRD = "Erik Cernak";
+                PlayerDatabase.P2PKExW = "Brayden Point";
+                PlayerDatabase.P2PKExD = "Mikhail Sergachev";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "TOR") {
@@ -2852,6 +3875,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Rasmus Sandin";
 				PlayerDatabase.P2RD3 = "Alex Biega";
 				PlayerDatabase.P2G = "Petr Mrazek";
+                PlayerDatabase.P2PPLW = "Alexander Kerfoot";
+                PlayerDatabase.P2PPC = "Auston Matthews";
+                PlayerDatabase.P2PPRW = "Mitchell Marner";
+                PlayerDatabase.P2PPLD = "Morgan Rielly";
+                PlayerDatabase.P2PPRD = "Jake Muzzin";
+                PlayerDatabase.P2PKLW = "Auston Matthews";
+                PlayerDatabase.P2PKRW = "Mitchell Marner";
+                PlayerDatabase.P2PKLD = "Morgan Rielly";
+                PlayerDatabase.P2PKRD = "Jake Muzzin";
+                PlayerDatabase.P2PKExW = "John Tavares";
+                PlayerDatabase.P2PKExD = "TJ Brodie";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "VAN") {
@@ -2874,6 +3908,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Tyler Myers";
 				PlayerDatabase.P2RD3 = "Noah Juulsen";
 				PlayerDatabase.P2G = "Thatcher Demko";
+                PlayerDatabase.P2PPLW = "Conor Garland";
+                PlayerDatabase.P2PPC = "Elias Pettersson";
+                PlayerDatabase.P2PPRW = "Brock Boeser";
+                PlayerDatabase.P2PPLD = "JT Miller";
+                PlayerDatabase.P2PPRD = "Quinn Hughes";
+                PlayerDatabase.P2PKLW = "Jason Dickinson";
+                PlayerDatabase.P2PKRW = "JT Miller";
+                PlayerDatabase.P2PKLD = "Oliver EkmanLarsson";
+                PlayerDatabase.P2PKRD = "Tyler Myers";
+                PlayerDatabase.P2PKExW = "Elias Pettersson";
+                PlayerDatabase.P2PKExD = "Madison Bowey";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "VGK") {
@@ -2896,6 +3941,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Alec Martinez";
 				PlayerDatabase.P2RD3 = "Zach Whitecloud";
 				PlayerDatabase.P2G = "Robin Lehner";
+                PlayerDatabase.P2PPLW = "Max Pacioretty";
+                PlayerDatabase.P2PPC = "William Karlsson";
+                PlayerDatabase.P2PPRW = "Mark Stone";
+                PlayerDatabase.P2PPLD = "Jonathan Marchessault";
+                PlayerDatabase.P2PPRD = "Reilly Smith";
+                PlayerDatabase.P2PKLW = "William Karlsson";
+                PlayerDatabase.P2PKRW = "Mark Stone";
+                PlayerDatabase.P2PKLD = "Alex Pietrangelo";
+                PlayerDatabase.P2PKRD = "Shea Theodore";
+                PlayerDatabase.P2PKExW = "Reilly Smith";
+                PlayerDatabase.P2PKExD = "Nicolas Hague";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "WAS") {
@@ -2918,6 +3974,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Michal Kempny";
 				PlayerDatabase.P2RD3 = "Dennis Cholowski";
 				PlayerDatabase.P2G = "Ilya Samsonov";
+                PlayerDatabase.P2PPLW = "Alexander Ovechkin";
+                PlayerDatabase.P2PPC = "Nicklas Backstrom";
+                PlayerDatabase.P2PPRW = "Tom Wilson";
+                PlayerDatabase.P2PPLD = "Anthony Mantha";
+                PlayerDatabase.P2PPRD = "John Carlson";
+                PlayerDatabase.P2PKLW = "Carl Hagelin";
+                PlayerDatabase.P2PKRW = "Tom Wilson";
+                PlayerDatabase.P2PKLD = "Dmitry Orlov";
+                PlayerDatabase.P2PKRD = "Michal Kempny";
+                PlayerDatabase.P2PKExW = "Nic Dowd";
+                PlayerDatabase.P2PKExD = "John Carlson";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "WPG") {
@@ -2940,6 +4007,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Brenden Dillon";
 				PlayerDatabase.P2RD3 = "Dylan DeMelo";
 				PlayerDatabase.P2G = "Connor Hellebuyck";
+                PlayerDatabase.P2PPLW = "Kyle Connor";
+                PlayerDatabase.P2PPC = "Mark Scheifele";
+                PlayerDatabase.P2PPRW = "Blake Wheeler";
+                PlayerDatabase.P2PPLD = "Nate Schmidt";
+                PlayerDatabase.P2PPRD = "Andrew Copp";
+                PlayerDatabase.P2PKLW = "Nikolaj Ehlers";
+                PlayerDatabase.P2PKRW = "Paul Stastny";
+                PlayerDatabase.P2PKLD = "Nate Schmidt";
+                PlayerDatabase.P2PKRD = "Brenden Dillon";
+                PlayerDatabase.P2PKExW = "Andrew Copp";
+                PlayerDatabase.P2PKExD = "Nathan Beaulieu";
 			}
 		}
 
@@ -2964,6 +4042,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Chris Pronger";
 				PlayerDatabase.P2RD3 = "Francois Beauchemin";
 				PlayerDatabase.P2G = "John Gibson";
+                PlayerDatabase.P2PPLW = "Paul Kariya";
+                PlayerDatabase.P2PPC = "Ryan Getzlaf";
+                PlayerDatabase.P2PPRW = "Teemu Selanne";
+                PlayerDatabase.P2PPLD = "Bobby Ryan";
+                PlayerDatabase.P2PPRD = "Petr Sykora";
+                PlayerDatabase.P2PKLW = "Chris Kunitz";
+                PlayerDatabase.P2PKRW = "Teemu Selanne";
+                PlayerDatabase.P2PKLD = "Hampus Lindholm";
+                PlayerDatabase.P2PKRD = "Chris Pronger";
+                PlayerDatabase.P2PKExW = "Paul Kariya";
+                PlayerDatabase.P2PKExD = "Francois Beauchemin";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "ATL") {
@@ -2986,6 +4075,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Greg DeVries";
 				PlayerDatabase.P2RD3 = "Ron Hainsey";
 				PlayerDatabase.P2G = "Kari Lehtonen";
+                PlayerDatabase.P2PPLW = "Ilya Kovalchuk";
+                PlayerDatabase.P2PPC = "Bryan Little";
+                PlayerDatabase.P2PPRW = "Marian Hossa";
+                PlayerDatabase.P2PPLD = "Donald Audette";
+                PlayerDatabase.P2PPRD = "Dany Heatley";
+                PlayerDatabase.P2PKLW = "Marian Hossa";
+                PlayerDatabase.P2PKRW = "Colby Armstrong";
+                PlayerDatabase.P2PKLD = "Dustin Byfuglien";
+                PlayerDatabase.P2PKRD = "Greg DeVries";
+                PlayerDatabase.P2PKExW = "Ilya Kovalchuk";
+                PlayerDatabase.P2PKExD = "Frantisek Kaberle";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "BOS") {
@@ -3008,6 +4108,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Dit Clapper";
 				PlayerDatabase.P2RD3 = "Mike OConnell";
 				PlayerDatabase.P2G = "Tuukka Rask";
+                PlayerDatabase.P2PPLW = "Ken Hodge";
+                PlayerDatabase.P2PPC = "Phil Esposito";
+                PlayerDatabase.P2PPRW = "Cam Neely";
+                PlayerDatabase.P2PPLD = "Raymond Bourque";
+                PlayerDatabase.P2PPRD = "Patrice Bergeron";
+                PlayerDatabase.P2PKLW = "Ken Hodge";
+                PlayerDatabase.P2PKRW = "Phil Esposito";
+                PlayerDatabase.P2PKLD = "Raymond Bourque";
+                PlayerDatabase.P2PKRD = "Bobby Orr";
+                PlayerDatabase.P2PKExW = "Cam Neely";
+                PlayerDatabase.P2PKExD = "Brad Park";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "BUF") {
@@ -3030,6 +4141,17 @@ public class Buttons04 : MonoBehaviour {
 				PlayerDatabase.P2RD2 = "Jerry Korab";
 				PlayerDatabase.P2RD3 = "Bill Hajt";
 				PlayerDatabase.P2G = "Dominik Hasek";
+                PlayerDatabase.P2PPLW = "Rick Martin";
+                PlayerDatabase.P2PPC = "Pat LaFontaine";
+                PlayerDatabase.P2PPRW = "Danny Gare";
+                PlayerDatabase.P2PPLD = "Rene Robert";
+                PlayerDatabase.P2PPRD = "Alexander Mogilny";
+                PlayerDatabase.P2PKLW = "Don Luce";
+                PlayerDatabase.P2PKRW = "Danny Gare";
+                PlayerDatabase.P2PKLD = "John VanBoxmeer";
+                PlayerDatabase.P2PKRD = "Bill Hajt";
+                PlayerDatabase.P2PKExW = "Mike Foligno";
+                PlayerDatabase.P2PKExD = "Phil Housley";
 			}
 
 			else if (PlayerDatabase.ComputerChosenTeam == "CAL") {
@@ -3052,6 +4174,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Gary Suter";
                 PlayerDatabase.P2RD3 = "Jamie Macoun";
                 PlayerDatabase.P2G = "Mike Vernon";
+                PlayerDatabase.P2PPLW = "Gary Roberts";
+                PlayerDatabase.P2PPC = "Joe Nieuwendyk";
+                PlayerDatabase.P2PPRW = "Theo Fleury";
+                PlayerDatabase.P2PPLD = "Al MacInnis";
+                PlayerDatabase.P2PPRD = "Jarome Iginla";
+                PlayerDatabase.P2PKLW = "Gary Roberts";
+                PlayerDatabase.P2PKRW = "Joe Mullen";
+                PlayerDatabase.P2PKLD = "Al MacInnis";
+                PlayerDatabase.P2PKRD = "Jamie Macoun";
+                PlayerDatabase.P2PKExW = "Joe Nieuwendyk";
+                PlayerDatabase.P2PKExD = "Gary Suter";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "CAR") {
@@ -3074,6 +4207,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Joni Pitkanen";
                 PlayerDatabase.P2RD3 = "Brett Pesce";
                 PlayerDatabase.P2G = "Kevin Weekes";
+                PlayerDatabase.P2PPLW = "Jeff Skinner";
+                PlayerDatabase.P2PPC = "Eric Staal";
+                PlayerDatabase.P2PPRW = "Andrei Svechnikov";
+                PlayerDatabase.P2PPLD = "Sebastian Aho";
+                PlayerDatabase.P2PPRD = "Dougie Hamilton";
+                PlayerDatabase.P2PKLW = "Sebastian Aho";
+                PlayerDatabase.P2PKRW = "Andrei Svechnikov";
+                PlayerDatabase.P2PKLD = "Dougie Hamilton";
+                PlayerDatabase.P2PKRD = "Brett Pesce";
+                PlayerDatabase.P2PKExW = "Erik Cole";
+                PlayerDatabase.P2PKExD = "Sean Hill";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "CBJ") {
@@ -3096,6 +4240,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Ryan Murray";
                 PlayerDatabase.P2RD3 = "David Savard";
                 PlayerDatabase.P2G = "Sergei Bobrovsky";
+                PlayerDatabase.P2PPLW = "Rick Nash";
+                PlayerDatabase.P2PPC = "Boone Jenner";
+                PlayerDatabase.P2PPRW = "Cam Atkinson";
+                PlayerDatabase.P2PPLD = "Seth Jones";
+                PlayerDatabase.P2PPRD = "Geoff Sanderson";
+                PlayerDatabase.P2PKLW = "Nick Foligno";
+                PlayerDatabase.P2PKRW = "Artemi Panarin";
+                PlayerDatabase.P2PKLD = "Seth Jones";
+                PlayerDatabase.P2PKRD = "Zach Werenski";
+                PlayerDatabase.P2PKExW = "Brandon Dubinsky";
+                PlayerDatabase.P2PKExD = "Ryan Murray";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "CHI") {
@@ -3118,6 +4273,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Duncan Keith";
                 PlayerDatabase.P2RD3 = "Pat Stapleton";
                 PlayerDatabase.P2G = "Tony Esposito";
+                PlayerDatabase.P2PPLW = "Bobby Hull";
+                PlayerDatabase.P2PPC = "Stan Mikita";
+                PlayerDatabase.P2PPRW = "Tony Amonte";
+                PlayerDatabase.P2PPLD = "Patrick Kane";
+                PlayerDatabase.P2PPRD = "Chris Chelios";
+                PlayerDatabase.P2PKLW = "Bobby Hull";
+                PlayerDatabase.P2PKRW = "Stan Mikita";
+                PlayerDatabase.P2PKLD = "Pierre Pilote";
+                PlayerDatabase.P2PKRD = "Pat Stapleton";
+                PlayerDatabase.P2PKExW = "Jonathan Toews";
+                PlayerDatabase.P2PKExD = "Chris Chelios";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "COL") {
@@ -3140,6 +4306,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Erik Johnson";
                 PlayerDatabase.P2RD3 = "Brett Clark";
                 PlayerDatabase.P2G = "Patrick Roy";
+                PlayerDatabase.P2PPLW = "Nathan MacKinnon";
+                PlayerDatabase.P2PPC = "Joe Sakic";
+                PlayerDatabase.P2PPRW = "Claude Lemieux";
+                PlayerDatabase.P2PPLD = "Cale Makar";
+                PlayerDatabase.P2PPRD = "Peter Forsberg";
+                PlayerDatabase.P2PKLW = "Joe Sakic";
+                PlayerDatabase.P2PKRW = "Peter Forsberg";
+                PlayerDatabase.P2PKLD = "Cale Makar";
+                PlayerDatabase.P2PKRD = "Rob Blake";
+                PlayerDatabase.P2PKExW = "Alex Tanguay";
+                PlayerDatabase.P2PKExD = "Erik Johnson";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "DAL") {
@@ -3162,6 +4339,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Derian Hatcher";
                 PlayerDatabase.P2RD3 = "Trevor Daley";
                 PlayerDatabase.P2G = "Marty Turco";
+                PlayerDatabase.P2PPLW = "Jere Lehtinen";
+                PlayerDatabase.P2PPC = "Mike Modano";
+                PlayerDatabase.P2PPRW = "Bill Guerin";
+                PlayerDatabase.P2PPLD = "Jamie Benn";
+                PlayerDatabase.P2PPRD = "Tyler Seguin";
+                PlayerDatabase.P2PKLW = "Jere Lehtinen";
+                PlayerDatabase.P2PKRW = "Mike Modano";
+                PlayerDatabase.P2PKLD = "Esa Lindell";
+                PlayerDatabase.P2PKRD = "Derian Hatcher";
+                PlayerDatabase.P2PKExW = "Brenden Morrow";
+                PlayerDatabase.P2PKExD = "Philippe Boucher";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "DET") {
@@ -3184,6 +4372,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Reed Larson";
                 PlayerDatabase.P2RD3 = "Brian Rafalski";
                 PlayerDatabase.P2G = "Terry Sawchuk";
+                PlayerDatabase.P2PPLW = "Brendan Shanahan";
+                PlayerDatabase.P2PPC = "Steve Yzerman";
+                PlayerDatabase.P2PPRW = "Sergei Fedorov";
+                PlayerDatabase.P2PPLD = "Nicklas Lidstrom";
+                PlayerDatabase.P2PPRD = "Gordie Howe";
+                PlayerDatabase.P2PKLW = "Pavel Datsyuk";
+                PlayerDatabase.P2PKRW = "Sergei Fedorov";
+                PlayerDatabase.P2PKLD = "Nicklas Lidstrom";
+                PlayerDatabase.P2PKRD = "Paul Coffey";
+                PlayerDatabase.P2PKExW = "Gordie Howe";
+                PlayerDatabase.P2PKExD = "Brian Rafalski";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "EDM") {
@@ -3206,6 +4405,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Darnell Nurse";
                 PlayerDatabase.P2RD3 = "Steve Smith";
                 PlayerDatabase.P2G = "Grant Fuhr";
+                PlayerDatabase.P2PPLW = "Connor McDavid";
+                PlayerDatabase.P2PPC = "Wayne Gretzky";
+                PlayerDatabase.P2PPRW = "Jari Kurri";
+                PlayerDatabase.P2PPLD = "Paul Coffey";
+                PlayerDatabase.P2PPRD = "Mark Messier";
+                PlayerDatabase.P2PKLW = "Wayne Gretzky";
+                PlayerDatabase.P2PKRW = "Jari Kurri";
+                PlayerDatabase.P2PKLD = "Paul Coffey";
+                PlayerDatabase.P2PKRD = "Randy Gregg";
+                PlayerDatabase.P2PKExW = "Mark Messier";
+                PlayerDatabase.P2PKExD = "Charlie Huddy";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "FLA") {
@@ -3228,6 +4438,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Jay Bouwmeester";
                 PlayerDatabase.P2RD3 = "Ed Jovanovski";
                 PlayerDatabase.P2G = "Roberto Luongo";
+                PlayerDatabase.P2PPLW = "David Booth";
+                PlayerDatabase.P2PPC = "Aleksander Barkov";
+                PlayerDatabase.P2PPRW = "Pavel Bure";
+                PlayerDatabase.P2PPLD = "Olli Jokinen";
+                PlayerDatabase.P2PPRD = "Aaron Ekblad";
+                PlayerDatabase.P2PKLW = "Aleksander Barkov";
+                PlayerDatabase.P2PKRW = "Pavel Bure";
+                PlayerDatabase.P2PKLD = "Bryan McCabe";
+                PlayerDatabase.P2PKRD = "Aaron Ekblad";
+                PlayerDatabase.P2PKExW = "Ray Whitney";
+                PlayerDatabase.P2PKExD = "Brian Campbell";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "HAR") {
@@ -3250,6 +4471,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Adam Burt";
                 PlayerDatabase.P2RD3 = "Brad Shaw";
                 PlayerDatabase.P2G = "Mike Liut";
+                PlayerDatabase.P2PPLW = "Geoff Sanderson";
+                PlayerDatabase.P2PPC = "Mike Rogers";
+                PlayerDatabase.P2PPRW = "Sylvain Turgeon";
+                PlayerDatabase.P2PPLD = "Ron Francis";
+                PlayerDatabase.P2PPRD = "Kevin Dineen";
+                PlayerDatabase.P2PKLW = "John Anderson";
+                PlayerDatabase.P2PKRW = "Mike Rogers";
+                PlayerDatabase.P2PKLD = "Ulf Samuelsson";
+                PlayerDatabase.P2PKRD = "Mark Howe";
+                PlayerDatabase.P2PKExW = "Paul MacDermid";
+                PlayerDatabase.P2PKExD = "Sylvain Cote";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "LAK") {
@@ -3272,6 +4504,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Larry Murphy";
                 PlayerDatabase.P2RD3 = "Marty McSorley";
                 PlayerDatabase.P2G = "Kelly Hrudey";
+                PlayerDatabase.P2PPLW = "Wayne Gretzky";
+                PlayerDatabase.P2PPC = "Marcel Dionne";
+                PlayerDatabase.P2PPRW = "Zigmund Palffy";
+                PlayerDatabase.P2PPLD = "Dave Taylor";
+                PlayerDatabase.P2PPRD = "Rob Blake";
+                PlayerDatabase.P2PKLW = "Charlie Simmer";
+                PlayerDatabase.P2PKRW = "Zigmund Palffy";
+                PlayerDatabase.P2PKLD = "Drew Doughty";
+                PlayerDatabase.P2PKRD = "Marty McSorley";
+                PlayerDatabase.P2PKExW = "Dave Taylor";
+                PlayerDatabase.P2PKExD = "Steve Duchesne";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "MNS") {
@@ -3294,6 +4537,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Brad Maxwell";
                 PlayerDatabase.P2RD3 = "Mark Tinordi";
                 PlayerDatabase.P2G = "Don Beaupre";
+                PlayerDatabase.P2PPLW = "Bill Goldsworthy";
+                PlayerDatabase.P2PPC = "Mike Modano";
+                PlayerDatabase.P2PPRW = "Brian Bellows";
+                PlayerDatabase.P2PPLD = "Danny Grant";
+                PlayerDatabase.P2PPRD = "Dino Ciccarelli";
+                PlayerDatabase.P2PKLW = "Danny Grant";
+                PlayerDatabase.P2PKRW = "Neal Broten";
+                PlayerDatabase.P2PKLD = "Gordie Roberts";
+                PlayerDatabase.P2PKRD = "Gary Sargent";
+                PlayerDatabase.P2PKExW = "Tom McCarthy";
+                PlayerDatabase.P2PKExD = "Mark Tinordi";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "MNW") {
@@ -3316,6 +4570,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Jared Spurgeon";
                 PlayerDatabase.P2RD3 = "Brent Burns";
                 PlayerDatabase.P2G = "Dwayne Roloson";
+                PlayerDatabase.P2PPLW = "Marian Gaborik";
+                PlayerDatabase.P2PPC = "Mikko Koivu";
+                PlayerDatabase.P2PPRW = "Jason Pominville";
+                PlayerDatabase.P2PPLD = "Matt Dumba";
+                PlayerDatabase.P2PPRD = "Zach Parise";
+                PlayerDatabase.P2PKLW = "Marian Gaborik";
+                PlayerDatabase.P2PKRW = "Mikko Koivu";
+                PlayerDatabase.P2PKLD = "Matt Dumba";
+                PlayerDatabase.P2PKRD = "Jared Spurgeon";
+                PlayerDatabase.P2PKExW = "Eric Staal";
+                PlayerDatabase.P2PKExD = "Ryan Suter";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "MON") {
@@ -3338,6 +4603,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Doug Harvey";
                 PlayerDatabase.P2RD3 = "Jacques Laperriere";
                 PlayerDatabase.P2G = "Jacques Plante";
+                PlayerDatabase.P2PPLW = "Jacques Lemaire";
+                PlayerDatabase.P2PPC = "Jean Beliveau";
+                PlayerDatabase.P2PPRW = "Guy Lafleur";
+                PlayerDatabase.P2PPLD = "Yvan Cournoyer";
+                PlayerDatabase.P2PPRD = "Maurice Richard";
+                PlayerDatabase.P2PKLW = "Jacques Lemaire";
+                PlayerDatabase.P2PKRW = "Guy Lafleur";
+                PlayerDatabase.P2PKLD = "Larry Robinson";
+                PlayerDatabase.P2PKRD = "Guy Lapointe";
+                PlayerDatabase.P2PKExW = "Maurice Richard";
+                PlayerDatabase.P2PKExD = "Jacques Laperriere";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "NAS") {
@@ -3360,6 +4636,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Shea Weber";
                 PlayerDatabase.P2RD3 = "Dan Hamhuis";
                 PlayerDatabase.P2G = "Pekka Rinne";
+                PlayerDatabase.P2PPLW = "Patric Hornqvist";
+                PlayerDatabase.P2PPC = "David Legwand";
+                PlayerDatabase.P2PPRW = "James Neal";
+                PlayerDatabase.P2PPLD = "Roman Josi";
+                PlayerDatabase.P2PPRD = "Filip Forsberg";
+                PlayerDatabase.P2PKLW = "David Legwand";
+                PlayerDatabase.P2PKRW = "James Neal";
+                PlayerDatabase.P2PKLD = "Roman Josi";
+                PlayerDatabase.P2PKRD = "Ryan Ellis";
+                PlayerDatabase.P2PKExW = "Martin Erat";
+                PlayerDatabase.P2PKExD = "Shea Weber";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "NJD") {
@@ -3382,6 +4669,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Brian Rafalski";
                 PlayerDatabase.P2RD3 = "Paul Martin";
                 PlayerDatabase.P2G = "Martin Brodeur";
+                PlayerDatabase.P2PPLW = "Zach Parise";
+                PlayerDatabase.P2PPC = "Bobby Holik";
+                PlayerDatabase.P2PPRW = "Stephane Richer";
+                PlayerDatabase.P2PPLD = "Scott Niedermayer";
+                PlayerDatabase.P2PPRD = "Scott Stevens";
+                PlayerDatabase.P2PKLW = "Bobby Holik";
+                PlayerDatabase.P2PKRW = "Petr Sykora";
+                PlayerDatabase.P2PKLD = "Scott Niedermayer";
+                PlayerDatabase.P2PKRD = "Scott Stevens";
+                PlayerDatabase.P2PKExW = "Randy McKay";
+                PlayerDatabase.P2PKExD = "Brian Rafalski";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "NYI") {
@@ -3404,6 +4702,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Travis Hamonic";
                 PlayerDatabase.P2RD3 = "Nick Leddy";
                 PlayerDatabase.P2G = "Billy Smith";
+                PlayerDatabase.P2PPLW = "Clark Gillies";
+                PlayerDatabase.P2PPC = "Bryan Trottier";
+                PlayerDatabase.P2PPRW = "Mike Bossy";
+                PlayerDatabase.P2PPLD = "Denis Potvin";
+                PlayerDatabase.P2PPRD = "Pat LaFontaine";
+                PlayerDatabase.P2PKLW = "Bryan Trottier";
+                PlayerDatabase.P2PKRW = "Mike Bossy";
+                PlayerDatabase.P2PKLD = "Denis Potvin";
+                PlayerDatabase.P2PKRD = "Stefan Persson";
+                PlayerDatabase.P2PKExW = "Clark Gillies";
+                PlayerDatabase.P2PKExD = "Roman Hamrlik";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "NYR") {
@@ -3426,6 +4735,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Neil Colville";
                 PlayerDatabase.P2RD3 = "Dave Maloney";
                 PlayerDatabase.P2G = "Henrik Lundqvist";
+                PlayerDatabase.P2PPLW = "Adam Graves";
+                PlayerDatabase.P2PPC = "Walt Tkaczuk";
+                PlayerDatabase.P2PPRW = "Bill Cook";
+                PlayerDatabase.P2PPLD = "Brian Leetch";
+                PlayerDatabase.P2PPRD = "Mark Messier";
+                PlayerDatabase.P2PKLW = "Adam Graves";
+                PlayerDatabase.P2PKRW = "Walt Tkaczuk";
+                PlayerDatabase.P2PKLD = "Reijo Ruotsalainen";
+                PlayerDatabase.P2PKRD = "Brad Park";
+                PlayerDatabase.P2PKExW = "Mark Messier";
+                PlayerDatabase.P2PKExD = "Brian Leetch";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "OTT") {
@@ -3448,6 +4768,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Wade Redden";
                 PlayerDatabase.P2RD3 = "Thomas Chabot";
                 PlayerDatabase.P2G = "Craig Anderson";
+                PlayerDatabase.P2PPLW = "Dany Heatley";
+                PlayerDatabase.P2PPC = "Alexei Yashin";
+                PlayerDatabase.P2PPRW = "Daniel Alfredsson";
+                PlayerDatabase.P2PPLD = "Erik Karlsson";
+                PlayerDatabase.P2PPRD = "Martin Havlat";
+                PlayerDatabase.P2PKLW = "Dany Heatley";
+                PlayerDatabase.P2PKRW = "Mark Stone";
+                PlayerDatabase.P2PKLD = "Zdeno Chara";
+                PlayerDatabase.P2PKRD = "Wade Redden";
+                PlayerDatabase.P2PKExW = "Jason Spezza";
+                PlayerDatabase.P2PKExD = "Andrej Meszaros";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "PHI") {
@@ -3470,6 +4801,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Eric Desjardins";
                 PlayerDatabase.P2RD3 = "Brad McCrimmon";
                 PlayerDatabase.P2G = "Bernie Parent";
+                PlayerDatabase.P2PPLW = "Brian Propp";
+                PlayerDatabase.P2PPC = "Eric Lindros";
+                PlayerDatabase.P2PPRW = "John LeClair";
+                PlayerDatabase.P2PPLD = "Bill Barber";
+                PlayerDatabase.P2PPRD = "Reggie Leach";
+                PlayerDatabase.P2PKLW = "Eric Lindros";
+                PlayerDatabase.P2PKRW = "Bobby Clarke";
+                PlayerDatabase.P2PKLD = "Mark Howe";
+                PlayerDatabase.P2PKRD = "Brad McCrimmon";
+                PlayerDatabase.P2PKExW = "Bill Barber";
+                PlayerDatabase.P2PKExD = "Bob Dailey";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "PHO") {
@@ -3492,6 +4834,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Keith Yandle";
                 PlayerDatabase.P2RD3 = "Jakob Chychrun";
                 PlayerDatabase.P2G = "Ilya Bryzgalov";
+                PlayerDatabase.P2PPLW = "Keith Tkachuk";
+                PlayerDatabase.P2PPC = "Daymond Langkow";
+                PlayerDatabase.P2PPRW = "Radim Vrbata";
+                PlayerDatabase.P2PPLD = "Oliver EkmanLarsson";
+                PlayerDatabase.P2PPRD = "Ladislav Nagy";
+                PlayerDatabase.P2PKLW = "Keith Tkachuk";
+                PlayerDatabase.P2PKRW = "Radim Vrbata";
+                PlayerDatabase.P2PKLD = "Teppo Numminen";
+                PlayerDatabase.P2PKRD = "Oleg Tverdovsky";
+                PlayerDatabase.P2PKExW = "Ladislav Nagy";
+                PlayerDatabase.P2PKExD = "Keith Yandle";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "PIT") {
@@ -3514,6 +4867,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Kevin Hatcher";
                 PlayerDatabase.P2RD3 = "Doug Bodger";
                 PlayerDatabase.P2G = "MarcAndre Fleury";
+                PlayerDatabase.P2PPLW = "Jean Pronovost";
+                PlayerDatabase.P2PPC = "Mario Lemieux";
+                PlayerDatabase.P2PPRW = "Jaromir Jagr";
+                PlayerDatabase.P2PPLD = "Larry Murphy";
+                PlayerDatabase.P2PPRD = "Sidney Crosby";
+                PlayerDatabase.P2PKLW = "Pascal Dupuis";
+                PlayerDatabase.P2PKRW = "Jaromir Jagr";
+                PlayerDatabase.P2PKLD = "Larry Murphy";
+                PlayerDatabase.P2PKRD = "Kevin Hatcher";
+                PlayerDatabase.P2PKExW = "Syl Apps";
+                PlayerDatabase.P2PKExD = "Kris Letang";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "QUE") {
@@ -3536,6 +4900,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Normand Rochefort";
                 PlayerDatabase.P2RD3 = "Dave Pichette";
                 PlayerDatabase.P2G = "Dan Bouchard";
+                PlayerDatabase.P2PPLW = "Michel Goulet";
+                PlayerDatabase.P2PPC = "Joe Sakic";
+                PlayerDatabase.P2PPRW = "Real Cloutier";
+                PlayerDatabase.P2PPLD = "Jacques Richard";
+                PlayerDatabase.P2PPRD = "Owen Nolan";
+                PlayerDatabase.P2PKLW = "Wilf Paiement";
+                PlayerDatabase.P2PKRW = "Dale Hunter";
+                PlayerDatabase.P2PKLD = "Mario Marois";
+                PlayerDatabase.P2PKRD = "Normand Rochefort";
+                PlayerDatabase.P2PKExW = "Michel Goulet";
+                PlayerDatabase.P2PKExD = "Randy Moller";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "SJS") {
@@ -3558,6 +4933,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Justin Braun";
                 PlayerDatabase.P2RD3 = "Scott Hannan";
                 PlayerDatabase.P2G = "Evgeni Nabokov";
+                PlayerDatabase.P2PPLW = "Milan Michalek";
+                PlayerDatabase.P2PPC = "Joe Pavelski";
+                PlayerDatabase.P2PPRW = "Jonathan Cheechoo";
+                PlayerDatabase.P2PPLD = "Brent Burns";
+                PlayerDatabase.P2PPRD = "Erik Karlsson";
+                PlayerDatabase.P2PKLW = "Milan Michalek";
+                PlayerDatabase.P2PKRW = "Vincent Damphousse";
+                PlayerDatabase.P2PKLD = "Brent Burns";
+                PlayerDatabase.P2PKRD = "Justin Braun";
+                PlayerDatabase.P2PKExW = "Joe Thornton";
+                PlayerDatabase.P2PKExD = "Scott Hannan";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "STL") {
@@ -3580,6 +4966,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Colton Parayko";
                 PlayerDatabase.P2RD3 = "Alex Pietrangelo";
                 PlayerDatabase.P2G = "Mike Liut";
+                PlayerDatabase.P2PPLW = "Red Berenson";
+                PlayerDatabase.P2PPC = "Pavol Demitra";
+                PlayerDatabase.P2PPRW = "Vladimir Tarasenko";
+                PlayerDatabase.P2PPLD = "Al MacInnis";
+                PlayerDatabase.P2PPRD = "Pierre Turgeon";
+                PlayerDatabase.P2PKLW = "Pavol Demitra";
+                PlayerDatabase.P2PKRW = "Pierre Turgeon";
+                PlayerDatabase.P2PKLD = "Al MacInnis";
+                PlayerDatabase.P2PKRD = "Chris Pronger";
+                PlayerDatabase.P2PKExW = "TJ Oshie";
+                PlayerDatabase.P2PKExD = "Colton Parayko";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "TBL") {
@@ -3602,6 +4999,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Shawn Chambers";
                 PlayerDatabase.P2RD3 = "Dan Boyle";
                 PlayerDatabase.P2G = "Andrei Vasilevskiy";
+                PlayerDatabase.P2PPLW = "Ondrej Palat";
+                PlayerDatabase.P2PPC = "Steven Stamkos";
+                PlayerDatabase.P2PPRW = "Nikita Kucherov";
+                PlayerDatabase.P2PPLD = "Victor Hedman";
+                PlayerDatabase.P2PPRD = "Martin StLouis";
+                PlayerDatabase.P2PKLW = "Ondrej Palat";
+                PlayerDatabase.P2PKRW = "Nikita Kucherov";
+                PlayerDatabase.P2PKLD = "Victor Hedman";
+                PlayerDatabase.P2PKRD = "Ryan McDonagh";
+                PlayerDatabase.P2PKExW = "Fredrik Modin";
+                PlayerDatabase.P2PKExD = "Anton Stralman";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "TOR") {
@@ -3624,6 +5032,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Bryan McCabe";
                 PlayerDatabase.P2RD3 = "Morgan Rielly";
                 PlayerDatabase.P2G = "Johnny Bower";
+                PlayerDatabase.P2PPLW = "Frank Mahovlich";
+                PlayerDatabase.P2PPC = "Mats Sundin";
+                PlayerDatabase.P2PPRW = "Rick Vaive";
+                PlayerDatabase.P2PPLD = "Lanny McDonald";
+                PlayerDatabase.P2PPRD = "Phil Kessel";
+                PlayerDatabase.P2PKLW = "Frank Mahovlich";
+                PlayerDatabase.P2PKRW = "Lanny McDonald";
+                PlayerDatabase.P2PKLD = "Tim Horton";
+                PlayerDatabase.P2PKRD = "Ian Turnbull";
+                PlayerDatabase.P2PKExW = "Mats Sundin";
+                PlayerDatabase.P2PKExD = "Red Kelly";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "VAN") {
@@ -3646,6 +5065,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Rick Lanz";
                 PlayerDatabase.P2RD3 = "Mattias Ohlund";
                 PlayerDatabase.P2G = "Kirk McLean";
+                PlayerDatabase.P2PPLW = "Todd Bertuzzi";
+                PlayerDatabase.P2PPC = "Henrik Sedin";
+                PlayerDatabase.P2PPRW = "Pavel Bure";
+                PlayerDatabase.P2PPLD = "Alexander Edler";
+                PlayerDatabase.P2PPRD = "Daniel Sedin";
+                PlayerDatabase.P2PKLW = "Todd Bertuzzi";
+                PlayerDatabase.P2PKRW = "Pavel Bure";
+                PlayerDatabase.P2PKLD = "Kevin Bieksa";
+                PlayerDatabase.P2PKRD = "Jyrki Lumme";
+                PlayerDatabase.P2PKExW = "Markus Naslund";
+                PlayerDatabase.P2PKExD = "Mattias Ohlund";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "WAS") {
@@ -3668,6 +5098,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Rod Langway";
                 PlayerDatabase.P2RD3 = "Al Iafrate";
                 PlayerDatabase.P2G = "Braden Holtby";
+                PlayerDatabase.P2PPLW = "Alexander Ovechkin";
+                PlayerDatabase.P2PPC = "Nicklas Backstrom";
+                PlayerDatabase.P2PPRW = "Peter Bondra";
+                PlayerDatabase.P2PPLD = "John Carlson";
+                PlayerDatabase.P2PPRD = "Mike Gartner";
+                PlayerDatabase.P2PKLW = "Adam Oates";
+                PlayerDatabase.P2PKRW = "Mike Ridley";
+                PlayerDatabase.P2PKLD = "Scott Stevens";
+                PlayerDatabase.P2PKRD = "Rod Langway";
+                PlayerDatabase.P2PKExW = "Alexander Ovechkin";
+                PlayerDatabase.P2PKExD = "Sergei Gonchar";
             }
 
             else if (PlayerDatabase.ComputerChosenTeam == "WPG") {
@@ -3690,6 +5131,17 @@ public class Buttons04 : MonoBehaviour {
                 PlayerDatabase.P2RD2 = "Phil Housley";
                 PlayerDatabase.P2RD3 = "Fredrik Olausson";
                 PlayerDatabase.P2G = "Connor Hellebuyck";
+                PlayerDatabase.P2PPLW = "Patrik Laine";
+                PlayerDatabase.P2PPC = "Dale Hawerchuk";
+                PlayerDatabase.P2PPRW = "Teemu Selanne";
+                PlayerDatabase.P2PPLD = "Dustin Byfuglien";
+                PlayerDatabase.P2PPRD = "Paul MacLean";
+                PlayerDatabase.P2PKLW = "Blake Wheeler";
+                PlayerDatabase.P2PKRW = "Doug Smail";
+                PlayerDatabase.P2PKLD = "Dustin Byfuglien";
+                PlayerDatabase.P2PKRD = "Jacob Trouba";
+                PlayerDatabase.P2PKExW = "Nikolaj Ehlers";
+                PlayerDatabase.P2PKExD = "Phil Housley";
             }
 		}
 	}

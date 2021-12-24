@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -307,147 +307,183 @@ public class Buttons19 : MonoBehaviour {
 		// P1
 		if (PlayerDatabase.GameplayPossession == "P1C1") {
 			PenalizedPlayer = PlayerDatabase.P1C1;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1C2") {
 			PenalizedPlayer = PlayerDatabase.P1C2;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1C3") {
 			PenalizedPlayer = PlayerDatabase.P1C3;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1C4") {
 			PenalizedPlayer = PlayerDatabase.P1C4;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LW1") {
 			PenalizedPlayer = PlayerDatabase.P1LW1;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LW2") {
 			PenalizedPlayer = PlayerDatabase.P1LW2;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LW3") {
 			PenalizedPlayer = PlayerDatabase.P1LW3;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LW4") {
 			PenalizedPlayer = PlayerDatabase.P1LW4;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RW1") {
 			PenalizedPlayer = PlayerDatabase.P1RW1;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RW2") {
 			PenalizedPlayer = PlayerDatabase.P1RW2;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RW3") {
 			PenalizedPlayer = PlayerDatabase.P1RW3;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RW4") {
 			PenalizedPlayer = PlayerDatabase.P1RW4;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LD1") {
 			PenalizedPlayer = PlayerDatabase.P1LD1;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LD2") {
 			PenalizedPlayer = PlayerDatabase.P1LD2;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1LD3") {
 			PenalizedPlayer = PlayerDatabase.P1LD3;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RD1") {
 			PenalizedPlayer = PlayerDatabase.P1RD1;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RD2") {
 			PenalizedPlayer = PlayerDatabase.P1RD2;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P1RD3") {
 			PenalizedPlayer = PlayerDatabase.P1RD3;
+            PlayerDatabase.GameplayPenaltyTeam = "P1";
 		}
 
 		// P2
 		else if (PlayerDatabase.GameplayPossession == "P2C1") {
 			PenalizedPlayer = PlayerDatabase.P2C1;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2C2") {
 			PenalizedPlayer = PlayerDatabase.P2C2;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2C3") {
 			PenalizedPlayer = PlayerDatabase.P2C3;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2C4") {
 			PenalizedPlayer = PlayerDatabase.P2C4;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LW1") {
 			PenalizedPlayer = PlayerDatabase.P2LW1;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LW2") {
 			PenalizedPlayer = PlayerDatabase.P2LW2;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LW3") {
 			PenalizedPlayer = PlayerDatabase.P2LW3;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LW4") {
 			PenalizedPlayer = PlayerDatabase.P2LW4;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RW1") {
 			PenalizedPlayer = PlayerDatabase.P2RW1;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RW2") {
 			PenalizedPlayer = PlayerDatabase.P2RW2;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RW3") {
 			PenalizedPlayer = PlayerDatabase.P2RW3;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RW4") {
 			PenalizedPlayer = PlayerDatabase.P2RW4;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LD1") {
 			PenalizedPlayer = PlayerDatabase.P2LD1;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LD2") {
 			PenalizedPlayer = PlayerDatabase.P2LD2;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2LD3") {
 			PenalizedPlayer = PlayerDatabase.P2LD3;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RD1") {
 			PenalizedPlayer = PlayerDatabase.P2RD1;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RD2") {
 			PenalizedPlayer = PlayerDatabase.P2RD2;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		else if (PlayerDatabase.GameplayPossession == "P2RD3") {
 			PenalizedPlayer = PlayerDatabase.P2RD3;
+            PlayerDatabase.GameplayPenaltyTeam = "P2";
 		}
 
 		// Get Penalty Rating
@@ -467,14 +503,21 @@ public class Buttons19 : MonoBehaviour {
 
 		// Determine Penalty
 		RandomizeSplitNumber = Random.Range(1,21);
+        PlayerDatabase.GameplayPenaltyPlayer = PenalizedPlayer;
 
 		if (PlayerPenaltyRating == "AA") {
 			if (RandomizeSplitNumber >= 5) {
 				RandomizePenaltyType();
+                PlayerDatabase.GameplayPenaltyOnOff = "On";
 				Scene19CLoadRun.Scene19CLoad();
 			}
 
 			else {
+                PenalizedPlayer = "None";
+                PlayerDatabase.GameplayPenaltyPlayer = "None";
+                PlayerDatabase.GameplayPenaltyTeam = "None";
+                PlayerDatabase.GameplayPenaltyType = "None";
+                PlayerDatabase.GameplayPenaltyOnOff = "Off";
 				Scene19BLoadRun.Scene19BLoad();
 			}
 		}
@@ -482,10 +525,16 @@ public class Buttons19 : MonoBehaviour {
 		else if (PlayerPenaltyRating == "A") {
 			if (RandomizeSplitNumber >= 7) {
 				RandomizePenaltyType();
+                PlayerDatabase.GameplayPenaltyOnOff = "On";
 				Scene19CLoadRun.Scene19CLoad();
 			}
 
 			else {
+                PenalizedPlayer = "None";
+                PlayerDatabase.GameplayPenaltyPlayer = "None";
+                PlayerDatabase.GameplayPenaltyTeam = "None";
+                PlayerDatabase.GameplayPenaltyType = "None";
+                PlayerDatabase.GameplayPenaltyOnOff = "Off";
 				Scene19BLoadRun.Scene19BLoad();
 			}
 		}
@@ -493,10 +542,16 @@ public class Buttons19 : MonoBehaviour {
 		else if (PlayerPenaltyRating == "B") {
 			if (RandomizeSplitNumber >= 9) {
 				RandomizePenaltyType();
+                PlayerDatabase.GameplayPenaltyOnOff = "On";
 				Scene19CLoadRun.Scene19CLoad();
 			}
 
 			else {
+                PenalizedPlayer = "None";
+                PlayerDatabase.GameplayPenaltyPlayer = "None";
+                PlayerDatabase.GameplayPenaltyTeam = "None";
+                PlayerDatabase.GameplayPenaltyType = "None";
+                PlayerDatabase.GameplayPenaltyOnOff = "Off";
 				Scene19BLoadRun.Scene19BLoad();
 			}
 		}
@@ -504,10 +559,16 @@ public class Buttons19 : MonoBehaviour {
 		else if (PlayerPenaltyRating == "C") {
 			if (RandomizeSplitNumber >= 12) {
 				RandomizePenaltyType();
+                PlayerDatabase.GameplayPenaltyOnOff = "On";
 				Scene19CLoadRun.Scene19CLoad();
 			}
 
 			else {
+                PenalizedPlayer = "None";
+                PlayerDatabase.GameplayPenaltyPlayer = "None";
+                PlayerDatabase.GameplayPenaltyTeam = "None";
+                PlayerDatabase.GameplayPenaltyType = "None";
+                PlayerDatabase.GameplayPenaltyOnOff = "Off";
 				Scene19BLoadRun.Scene19BLoad();
 			}
 		}
@@ -515,10 +576,16 @@ public class Buttons19 : MonoBehaviour {
 		else if (PlayerPenaltyRating == "D") {
 			if (RandomizeSplitNumber >= 15) {
 				RandomizePenaltyType();
+                PlayerDatabase.GameplayPenaltyOnOff = "On";
 				Scene19CLoadRun.Scene19CLoad();
 			}
 
 			else {
+                PenalizedPlayer = "None";
+                PlayerDatabase.GameplayPenaltyPlayer = "None";
+                PlayerDatabase.GameplayPenaltyTeam = "None";
+                PlayerDatabase.GameplayPenaltyType = "None";
+                PlayerDatabase.GameplayPenaltyOnOff = "Off";
 				Scene19BLoadRun.Scene19BLoad();
 			}
 		}

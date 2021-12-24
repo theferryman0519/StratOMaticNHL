@@ -71,21 +71,26 @@ public class Buttons21 : MonoBehaviour {
 		}
 
 		else if (PlayerDatabase.GameplayPeriod == "3") {
-			if (System.Int32.Parse(PlayerDatabase.GameplayP1Score) == System.Int32.Parse(PlayerDatabase.GameplayP2Score)) {
-				PlayerDatabase.GameplayAssistA = "None";
-				PlayerDatabase.GameplayAssistB = "None";
-				PlayerDatabase.GameplayGoalScorer = "None";
-				PlayerDatabase.GameplayPlay = "0";
-				PlayerDatabase.GameplayPeriod = "5";
-				Scene26LoadRun.Scene26Load();
-			}
+			// if (System.Int32.Parse(PlayerDatabase.GameplayP1Score) == System.Int32.Parse(PlayerDatabase.GameplayP2Score)) {
+			// 	PlayerDatabase.GameplayAssistA = "None";
+			// 	PlayerDatabase.GameplayAssistB = "None";
+			// 	PlayerDatabase.GameplayGoalScorer = "None";
+			// 	PlayerDatabase.GameplayPlay = "0";
+			// 	PlayerDatabase.GameplayPeriod = "5";
+			// 	Scene26LoadRun.Scene26Load();
+			// }
 
-			else {
-				PlayerDatabase.GameplayAssistA = "None";
-				PlayerDatabase.GameplayAssistB = "None";
-				PlayerDatabase.GameplayGoalScorer = "None";
-				Scene21BLoadRun.Scene21BLoad();
-			}
+			// else {
+			// 	PlayerDatabase.GameplayAssistA = "None";
+			// 	PlayerDatabase.GameplayAssistB = "None";
+			// 	PlayerDatabase.GameplayGoalScorer = "None";
+			// 	Scene21BLoadRun.Scene21BLoad();
+			// }
+
+			PlayerDatabase.GameplayAssistA = "None";
+			PlayerDatabase.GameplayAssistB = "None";
+			PlayerDatabase.GameplayGoalScorer = "None";
+			Scene21BLoadRun.Scene21BLoad();
 		}
 	}
 	

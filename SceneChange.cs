@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,6 +47,11 @@ public class SceneChange : MonoBehaviour {
 	public static string Scene19 = "19GamePenalty";
 	public static string Scene19B = "19BGamePenaltyGood";
 	public static string Scene19C = "19CGamePenaltyBad";
+    public static string Scene19D = "19DGamePenaltyPlays";
+    public static string Scene19E = "19EGamePenaltyShots";
+    public static string Scene19F = "19FGamePenaltySave";
+    public static string Scene19G = "19GGamePenaltyGoal";
+    public static string Scene19H = "19HGamePenaltyEnd";
 	public static string Scene20 = "20GamePenetration";
 	public static string Scene21 = "21GamePeriodOver";
 	public static string Scene21B = "21BGameGameOver";
@@ -228,6 +233,31 @@ public class SceneChange : MonoBehaviour {
 	// Load Scene19C - Game Penalty Bad Scene
 	public void Scene19CLoad() {
 		SceneManager.LoadScene(Scene19C);
+	}
+
+    // Load Scene19D - Game Penalty Plays Scene
+	public void Scene19DLoad() {
+		SceneManager.LoadScene(Scene19D);
+	}
+
+    // Load Scene19E - Game Penalty Shots Scene
+	public void Scene19ELoad() {
+		SceneManager.LoadScene(Scene19E);
+	}
+
+    // Load Scene19F - Game Penalty Save Scene
+	public void Scene19FLoad() {
+		SceneManager.LoadScene(Scene19F);
+	}
+
+    // Load Scene19G - Game Penalty Goal Scene
+	public void Scene19GLoad() {
+		SceneManager.LoadScene(Scene19G);
+	}
+
+    // Load Scene19H - Game Penalty End Scene
+	public void Scene19HLoad() {
+		SceneManager.LoadScene(Scene19H);
 	}
 
 	// Load Scene20 - Game Penetration Scene
