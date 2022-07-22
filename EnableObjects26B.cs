@@ -178,11 +178,11 @@ public class EnableObjects26B : MonoBehaviour {
 		UpdateCurrentShooter();
 
 		if (ShootoutTurnString == "P1") {
-			ActionText.text = ShooterNameP1 + " is up to shoot for the " + FullTeamNameP1;
+			ActionText.text = ShooterNameP1 + " is up to shoot for the " + FullTeamNameP1 + "\n" + "(" + PlayerDatabase.PlayerChosenTeam + ": " + PlayerDatabase.GameplayP1ShootoutGoals + " / " + PlayerDatabase.ComputerChosenTeam + ": " + PlayerDatabase.GameplayP2ShootoutGoals + ")";
 		}
 
 		else if (ShootoutTurnString == "P2") {
-			ActionText.text = ShooterNameP2 + " is up to shoot for the " + FullTeamNameP2;
+			ActionText.text = ShooterNameP2 + " is up to shoot for the " + FullTeamNameP2 + "\n" + "(" + PlayerDatabase.PlayerChosenTeam + ": " + PlayerDatabase.GameplayP1ShootoutGoals + " / " + PlayerDatabase.ComputerChosenTeam + ": " + PlayerDatabase.GameplayP2ShootoutGoals + ")";
 		}
 	}
 

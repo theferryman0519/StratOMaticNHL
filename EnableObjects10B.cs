@@ -27,6 +27,11 @@ public class EnableObjects10B : MonoBehaviour {
 	public Text P2Shots;
 	public Text Period;
 	public Text Play;
+
+	// Goal Horn
+	public AudioClip GoalHornClip;
+	public AudioSource GoalHorn;
+	public float GoalHornVolume;
 	
 // --------------- PRIVATE VARIABLES ---------------
 	
@@ -44,9 +49,13 @@ public class EnableObjects10B : MonoBehaviour {
 // ---------------------------------------- START: INITIAL FUNCTIONS ----------------------------------------
 // --------------- START FUNCTION ---------------
 	void Start() {
+		GoalHornVolume = GoalHorn.volume;
+		GoalHornVolume = 5.0f;
+
 		EnableMainObjects();
 		EnableScoreboardObjects();
 		UpdatePlayerNames();
+		PlayGoalHorn();
 	}
 	
 // --------------- AWAKE FUNCTION ---------------
@@ -670,6 +679,19 @@ public class EnableObjects10B : MonoBehaviour {
 				PlayerAssistA = "None";
 			}
 		}
+	}
+
+	public void PlayGoalHorn() {
+		StartCoroutine(PlayingGoalHorn());
+	}
+
+	public IEnumerator PlayingGoalHorn() {
+		PlaySounds.BackgroundMusicVolume = 0.1f;
+		GoalHorn.Play();
+		GoalHornVolume = 5.0f;
+		yield return new WaitForSeconds(2.0f);
+		GoalHornVolume = 0.0f;
+		PlaySounds.BackgroundMusicVolume = 3.0f;
 	}
 	
 // ---------------------------------------- END: OTHER FUNCTIONS ----------------------------------------

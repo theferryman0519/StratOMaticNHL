@@ -64,7 +64,6 @@ public class SceneChange : MonoBehaviour {
 	public static string Scene26B = "26BGameShootoutShots";
 	public static string Scene26C = "26CGameShootoutSave";
 	public static string Scene26D = "26DGameShootoutGoal";
-	public static string Scene26E = "26EGameShootoutRating";
 	
 // ---------------------------------------- END: LIST OF VARIABLES ----------------------------------------
 // ---------------------------------------- START: CALLING OTHER SCRIPTS ----------------------------------------
@@ -318,11 +317,6 @@ public class SceneChange : MonoBehaviour {
 	// Load Scene26D - Game Shootout Goal Scene
 	public void Scene26DLoad() {
 		SceneManager.LoadScene(Scene26D);
-	}
-
-	// Load Scene26E - Game Shootout Rating Scene
-	public void Scene26ELoad() {
-		SceneManager.LoadScene(Scene26E);
 	}
 	
 // ---------------------------------------- END: OTHER FUNCTIONS ----------------------------------------
