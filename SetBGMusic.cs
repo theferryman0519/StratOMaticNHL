@@ -4,58 +4,67 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
-using UnityEngine.Networking;
 using System.Data;
 using System.IO;
-using System.Net;
 
-public class Buttons26 : MonoBehaviour {
+public class SetBGMusic : MonoBehaviour {
 		
 // ---------------------------------------- START: LIST OF VARIABLES ----------------------------------------
 // --------------- PUBLIC VARIABLES ---------------
-	// Main Buttons
-	public Button ContinueButton;
+	
 	
 // --------------- PRIVATE VARIABLES ---------------
 	
 	
 // --------------- STATIC VARIABLES ---------------
-	
+    public static int MusicIsMute;
+    public static SetBGMusic Instance {
+        get {
+            return MusicInstance;
+        }
+    }
+    
+    private static SetBGMusic MusicInstance = null;
 	
 // ---------------------------------------- END: LIST OF VARIABLES ----------------------------------------
 // ---------------------------------------- START: CALLING OTHER SCRIPTS ----------------------------------------
-	// Scene Change
-	public SceneChange Scene26BLoadRun;
+	
 	
 // ---------------------------------------- END: CALLING OTHER SCRIPTS ----------------------------------------
 // ---------------------------------------- START: INITIAL FUNCTIONS ----------------------------------------
 // --------------- START FUNCTION ---------------
 	void Start() {
-		// ContinueButton
-		Button ContinueButtonClick = ContinueButton.GetComponent<Button>();
-		ContinueButtonClick.onClick.AddListener(ContinueButtonClicking);
+		MusicIsMute = 1;
 	}
 	
 // --------------- AWAKE FUNCTION ---------------
 	void Awake() {
-		
+		if ((MusicInstance != null) && (MusicInstance != this)) {
+            Destroy(this.gameObject);
+            return;
+        }
+        
+        else {
+            MusicInstance = this;
+        }
+        
+        DontDestroyOnLoad(this.gameObject);
 	}
 	
 // --------------- UPDATE FUNCTION ---------------
 	void Update() {
-		
+		if (MusicIsMute == 0) {
+            AudioListener.volume = 0;
+        }
+        
+        if (MusicIsMute == 1) {
+            AudioListener.volume = 1;
+        }
 	}
 	
 // ---------------------------------------- END: INITIAL FUNCTIONS ----------------------------------------
 // ---------------------------------------- START: OTHER FUNCTIONS ----------------------------------------
-// --------------- BUTTON FUNCTIONS ---------------
-	public void ContinueButtonClicking() {
-		EnableObjects26B.ShootoutRoundInt = 1;
-		EnableObjects26B.ShootoutTurnString = "P1";
-		PlayerDatabase.GameplayP1ShootoutGoals = "0";
-		PlayerDatabase.GameplayP2ShootoutGoals = "0";
-		Scene26BLoadRun.Scene26BLoad();
-	}
+	
 	
 // ---------------------------------------- END: OTHER FUNCTIONS ----------------------------------------
 }

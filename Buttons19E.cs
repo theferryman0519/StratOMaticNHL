@@ -29,6 +29,7 @@ public class Buttons19E : MonoBehaviour {
 	public static int SplitCardNumber;
 	public static string ShotSelection;
 	public static string GoalieRatingSelection;
+	public static int AddedShot;
 	
 // ---------------------------------------- END: LIST OF VARIABLES ----------------------------------------
 // ---------------------------------------- START: CALLING OTHER SCRIPTS ----------------------------------------
@@ -3719,15 +3720,51 @@ public class Buttons19E : MonoBehaviour {
 
 		// Determine Goal / GR / Save / Loss
 		if ((ShotSelection.Contains("Shot")) || (ShotSelection.Contains("Save")) || (ShotSelection.Contains("Rebound"))) {
+			if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP1Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP1Shots = AddedShot.ToString();
+			}
+
+			else if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP2Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP2Shots = AddedShot.ToString();
+			}
+
 			EnableObjects19F.SaveOrLoss = "Save";
 			Scene19FLoadRun.Scene19FLoad();
 		}
 
 		else if ((ShotSelection.Contains("Goal")) || (ShotSelection.Contains("Goal+"))) {
+			if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP1Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP1Shots = AddedShot.ToString();
+			}
+
+			else if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP2Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP2Shots = AddedShot.ToString();
+			}
+
 			DetermineGoal();
 		}
 
 		else if ((ShotSelection.Contains("G. Rating")) || (ShotSelection.Contains("G. Rating+"))) {
+			if (PlayerDatabase.GameplayPenaltyTeam == "P2") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP1Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP1Shots = AddedShot.ToString();
+			}
+
+			else if (PlayerDatabase.GameplayPenaltyTeam == "P1") {
+				AddedShot = System.Int32.Parse(PlayerDatabase.GameplayP2Shots);
+				AddedShot = AddedShot + 1;
+				PlayerDatabase.GameplayP2Shots = AddedShot.ToString();
+			}
+			
 			DetermineGoalieRating();
 		}
 

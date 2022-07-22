@@ -23,6 +23,7 @@ public class Buttons21B : MonoBehaviour {
 	public static int UpdateWins;
 	public static int UpdateLosses;
 	public static int UpdateTies;
+	public static string WentIntoOvertime;
 	
 // ---------------------------------------- END: LIST OF VARIABLES ----------------------------------------
 // ---------------------------------------- START: CALLING OTHER SCRIPTS ----------------------------------------
@@ -36,6 +37,10 @@ public class Buttons21B : MonoBehaviour {
 		// MainMenuButton
 		Button MainMenuButtonClick = MainMenuButton.GetComponent<Button>();
 		MainMenuButtonClick.onClick.AddListener(MainMenuButtonClicking);
+
+		UpdateWins = 0;
+		UpdateLosses = 0;
+		UpdateTies = 0;
 	}
 	
 // --------------- AWAKE FUNCTION ---------------
